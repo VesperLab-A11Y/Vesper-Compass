@@ -1,0 +1,118 @@
+{
+  "ui": {
+    "pageTitle": "WCAG 2.2 reference",
+    "tagline": "All 87 success criteria in plain language, with a fix to aim for and the people each one affects.",
+    "eyebrow": "Vesper Lab",
+    "skipToSearch": "Skip to search",
+    "skipToMain": "Skip to content",
+
+    "themeLabel": "Theme",
+    "themeSystem": "System",
+    "themeDark": "Dark",
+    "themeLight": "Light",
+    "langToggle": "Français",
+
+    "sonarCardTitle": "Sonar, the reference as an overlay",
+    "sonarCardBody": "Sonar opens these same 87 criteria in a floating panel, on top of the page you are auditing. Drag the link beside this text onto your bookmarks bar to install it.",
+    "sonarDragLabel": "Sonar — WCAG 2.2",
+    "sonarHelpSummary": "Drag-to-install not working?",
+    "sonarHelpIntro": "Create the bookmark by hand:",
+    "sonarHelpStep1": "Bookmark this page (Ctrl+D or Cmd+D).",
+    "sonarHelpStep2": "Edit the bookmark and replace its address with the code from the “Sonar” link (right-click the link, “Copy link address”).",
+    "sonarHelpStep3": "Save. The bookmark opens Sonar on any page.",
+
+    "tabGlossary": "1. Glossary",
+    "tabReport": "2. Report",
+    "tabSaves": "3. Saved",
+
+    "searchLabel": "Search for a criterion",
+    "searchPlaceholder": "Name, number or guideline…",
+    "searchHint": "The list filters as you type.",
+
+    "reportModeBtn": "New report",
+    "reportModeBtnActive": "Report mode on",
+    "resetFiltersBtn": "Reset filters",
+
+    "filtersLegend": "Filters",
+    "filterPrinciple": "Principle",
+    "filterLevel": "Level",
+    "filterVersion": "Version",
+    "filterDisability": "Who it affects",
+
+    "colId": "ID",
+    "colName": "Criterion name",
+    "colLevel": "Level",
+    "colVersion": "Version",
+    "colPrinciple": "Principle",
+    "colGuideline": "Guideline",
+
+    "tableCaption": "WCAG 2.2 success criteria. Sort by column header, filters above.",
+    "noResults": "No criterion matches this search or these filters.",
+    "resultLine": "{n} of {total} criteria shown",
+    "datasetLoading": "Loading…",
+    "datasetCount": "{n} criteria loaded",
+    "selectionCount": "{n} criteria selected",
+
+    "ficheStandard": "What WCAG says",
+    "fichePlain": "In plain language",
+    "ficheRemediation": "A fix to aim for",
+    "ficheConcerne": "Affects",
+    "ficheReferentiels": "Other standards",
+    "linkSpec": "Read the criterion (W3C)",
+    "linkUnderstanding": "Understanding this criterion (W3C)",
+    "xrefEn301549": "EN 301 549",
+    "xrefRgaa": "RGAA 4.1",
+    "xrefQc": "SGQRI 008 3.0",
+    "xrefQcShort": "Required in Québec",
+
+    "reportEyebrow": "Current report",
+    "reportHeading": "{n} criteria selected",
+    "reportIntro": "Grouped by principle (P, O, U, R) then by guideline in numeric order. Selection order is not kept.",
+    "saveNameLabel": "Report name",
+    "saveNamePlaceholder": "Report name (e.g. City of Québec, home page)",
+    "saveBtn": "Save",
+    "exportCsvBtn": "Export CSV",
+    "exportPdfBtn": "Export PDF",
+    "clearBtn": "Clear selection",
+    "exportNote": "Exports carry the number, name, level, description, plain-language explanation and the fix to aim for.",
+    "noSelection": "No criterion selected. Turn on “New report” in the Glossary tab, then tick the criteria you keep.",
+
+    "savesEyebrow": "Local memory",
+    "savesHeading": "Saved reports",
+    "savesStorageNote": "Stored in this browser only.",
+    "savesFilterLabel": "Filter reports",
+    "savesFilterPlaceholder": "Filter reports…",
+    "noSaves": "No saved report yet.",
+    "saveReload": "Reload",
+    "saveDelete": "Delete",
+
+    "toastCsv": "CSV exported ({n} criteria, UTF-8 with BOM).",
+    "toastReportLoaded": "Report “{name}” reloaded.",
+    "toastReportSaved": "Report “{name}” saved.",
+    "toastReportDeleted": "Report deleted.",
+    "toastSelectionCleared": "Selection cleared.",
+    "toastSaveNeedsName": "Give the report a name before saving.",
+    "toastLocalDenied": "The browser blocked local storage.",
+    "toastDataError": "Could not load the criteria.",
+    "confirmClear": "Clear the current selection? Reports you already saved are not affected."
+  },
+
+  "principles": {
+    "Perceivable": "Perceivable",
+    "Operable": "Operable",
+    "Understandable": "Understandable",
+    "Robust": "Robust"
+  },
+
+  "disabilityTags": {
+    "blind": "Blind",
+    "low-vision": "Low vision",
+    "deaf-hoh": "Deaf or hard of hearing",
+    "motor": "Motor",
+    "cognitive": "Cognitive",
+    "vestibular": "Vestibular",
+    "photosensitive": "Photosensitive",
+    "color-blind": "Colour blindness",
+    "speech": "Speech"
+  }
+}

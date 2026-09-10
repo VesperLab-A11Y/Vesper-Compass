@@ -1,0 +1,3873 @@
+[
+  {
+    "id": "1.1.1",
+    "name": "Non-text Content",
+    "name_fr": "Contenu non textuel",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.1.1 Non-text Content",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.1",
+    "guidelineName": "Text Alternatives",
+    "url": "https://www.w3.org/TR/WCAG22/#non-text-content",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html",
+    "disability_tags": [
+      "blind",
+      "low-vision",
+      "deaf-hoh",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Toute image, icône ou élément non textuel qui porte une information doit avoir une alternative textuelle, pour que les personnes utilisatrices de lecteur d'écran comprennent ce que l'image transmet.",
+      "en": "Any image, icon, or non-text element that conveys information must have a text alternative, so people who use screen readers can understand what the image communicates."
+    },
+    "plain": {
+      "fr": "Une personne qui ne voit pas l'écran se fait lire la page à voix haute par un logiciel. Si une image n'a pas de description écrite, ce logiciel n'a rien à dire, et l'information portée par l'image est perdue. Chaque image utile a donc besoin d'un court texte qui dit ce qu'elle montre ou ce qu'elle déclenche.",
+      "en": "Someone who can't see the screen has the page read aloud by software. If an image has no written description, that software has nothing to say, and the information the image carries is lost. So every meaningful image needs a short text that states what it shows or what it does."
+    },
+    "remediation": {
+      "fr": "Donnez à chaque image porteuse de sens un texte de remplacement court et précis, qui décrit son propos ou son action plutôt que son apparence. Pour une image servant de bouton ou de lien, décrivez la destination ou la fonction. Laissez le texte de remplacement vide pour les images purement décoratives, afin que l'aide technique les ignore.",
+      "en": "Give every meaningful image a short, precise text alternative that describes its purpose or action rather than its appearance. For an image used as a button or link, describe the destination or function. Leave the text alternative empty for purely decorative images so assistive technology skips them."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.1.1"
+      ],
+      "rgaa": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7",
+        "1.9",
+        "4.7",
+        "4.8",
+        "4.9",
+        "6.1",
+        "6.2",
+        "7.2",
+        "10.2",
+        "13.3",
+        "13.4",
+        "13.5",
+        "13.6"
+      ],
+      "qc": [
+        "1.1.1"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.2.1",
+    "name": "Audio-only and Video-only (Prerecorded)",
+    "name_fr": "Contenu seulement audio ou seulement vidéo (préenregistré)",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.2.1 Audio-only and Video-only (Prerecorded)",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.2",
+    "guidelineName": "Time-based Media",
+    "url": "https://www.w3.org/TR/WCAG22/#audio-only-and-video-only-prerecorded",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded.html",
+    "disability_tags": [
+      "deaf-hoh",
+      "blind",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Un contenu uniquement audio ou uniquement vidéo doit être accompagné d'une alternative textuelle équivalente, pour rester accessible aux personnes qui ne peuvent pas entendre ou voir le contenu original.",
+      "en": "Audio-only or video-only content must be accompanied by an equivalent text alternative, so it stays accessible to people who cannot hear or see the original content."
+    },
+    "plain": {
+      "fr": "Un fichier seulement sonore, comme un podcast, est inaccessible à une personne sourde. Une vidéo sans bande-son l'est à une personne aveugle. Proposer une version écrite de ce qui est dit ou montré permet à chacun d'accéder au contenu.",
+      "en": "A sound-only file, like a podcast, is out of reach for someone who is deaf. A silent video is out of reach for someone who is blind. Offering a written version of what is said or shown lets everyone reach the content."
+    },
+    "remediation": {
+      "fr": "Pour un contenu seulement audio, publiez une transcription texte complète à côté du lecteur. Pour un contenu seulement vidéo, fournissez une transcription qui décrit l'action à l'écran, ou une piste audio qui la raconte. Placez le lien vers cette alternative juste avant ou après le média.",
+      "en": "For audio-only content, publish a full text transcript next to the player. For video-only content, provide a transcript describing the on-screen action, or an audio track that narrates it. Put the link to this alternative right before or after the media."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.2.1"
+      ],
+      "rgaa": [
+        "4.1",
+        "4.2"
+      ],
+      "qc": [
+        "1.2.1"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.2.2",
+    "name": "Captions (Prerecorded)",
+    "name_fr": "Sous-titres (préenregistrés)",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.2.2 Captions (Prerecorded)",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.2",
+    "guidelineName": "Time-based Media",
+    "url": "https://www.w3.org/TR/WCAG22/#captions-prerecorded",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html",
+    "disability_tags": [
+      "deaf-hoh",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Les vidéos préenregistrées avec du son doivent proposer des sous-titres synchronisés, incluant les dialogues et les informations sonores importantes.",
+      "en": "Prerecorded videos with sound must provide synchronized captions, including dialogue and important sound information."
+    },
+    "plain": {
+      "fr": "Les sous-titres affichent à l'écran ce qu'on entend : les paroles, mais aussi les sons importants comme une sonnerie ou un rire. Sans eux, une personne sourde ou malentendante perd le fil de la vidéo, tout comme quelqu'un dans un lieu bruyant.",
+      "en": "Captions show on screen what is heard: the speech, but also important sounds like a phone ringing or laughter. Without them, someone who is deaf or hard of hearing loses the thread of the video, and so does anyone in a noisy place."
+    },
+    "remediation": {
+      "fr": "Ajoutez des sous-titres synchronisés à toute vidéo dont le son porte du sens. Rédigez-les ou relisez-les à la main : les sous-titres générés automatiquement contiennent trop d'erreurs pour être laissés tels quels. Identifiez les personnes qui parlent et notez les sons non verbaux utiles à la compréhension.",
+      "en": "Add synchronized captions to any video whose sound carries meaning. Write or proofread them by hand: auto-generated captions have too many errors to leave as they are. Identify who is speaking and note the non-speech sounds that matter for understanding."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.2.2"
+      ],
+      "rgaa": [
+        "4.3",
+        "4.4"
+      ],
+      "qc": [
+        "1.2.2"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.2.3",
+    "name": "Audio Description or Media Alternative (Prerecorded)",
+    "name_fr": "Audio-description ou version de remplacement pour média temporel (préenregistré)",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.2.3 Audio Description or Media Alternative (Prerecorded)",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.2",
+    "guidelineName": "Time-based Media",
+    "url": "https://www.w3.org/TR/WCAG22/#audio-description-or-media-alternative-prerecorded",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded.html",
+    "disability_tags": [
+      "blind",
+      "low-vision",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Une vidéo préenregistrée doit permettre de comprendre les informations visuelles importantes même sans les voir, via une audiodescription ou une alternative textuelle complète.",
+      "en": "A prerecorded video must let people understand important visual information even without seeing it, through audio description or a full text alternative."
+    },
+    "plain": {
+      "fr": "Dans une vidéo, il se passe parfois des choses à l'écran qu'aucune parole n'explique : un texte qui s'affiche, un geste, un changement de lieu. Une personne qui ne voit pas l'image a besoin que ces éléments soient racontés, soit par une voix supplémentaire, soit dans un document écrit.",
+      "en": "In a video, things sometimes happen on screen that no one explains out loud: text that appears, a gesture, a change of place. Someone who can't see the picture needs those things narrated, either by an extra voice or in a written document."
+    },
+    "remediation": {
+      "fr": "Repérez les informations visuelles essentielles qui ne sont pas déjà dites à voix haute. Ajoutez-les soit dans une piste d'audio-description qui les décrit pendant les silences, soit dans une alternative textuelle complète reprenant dialogue et action. Une seule des deux solutions suffit à ce niveau.",
+      "en": "Identify the essential visual information that isn't already spoken aloud. Add it either in an audio description track that covers it during pauses, or in a full text alternative covering both dialogue and action. Either one is enough at this level."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.2.3"
+      ],
+      "rgaa": [
+        "4.1",
+        "4.2"
+      ],
+      "qc": [
+        "1.2.3"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.2.4",
+    "name": "Captions (Live)",
+    "name_fr": "Sous-titres (en direct)",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.2.4 Captions (Live)",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.2",
+    "guidelineName": "Time-based Media",
+    "url": "https://www.w3.org/TR/WCAG22/#captions-live",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/captions-live.html",
+    "disability_tags": [
+      "deaf-hoh",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Les contenus audio diffusés en direct doivent aussi proposer des sous-titres en temps réel.",
+      "en": "Live audio broadcasts must also provide real-time captions."
+    },
+    "plain": {
+      "fr": "Pendant un événement diffusé en direct, comme une conférence ou un webinaire, une personne sourde ou malentendante ne peut pas attendre une transcription publiée le lendemain. Il lui faut des sous-titres qui apparaissent en temps réel, au fil des paroles.",
+      "en": "During a live event such as a talk or a webinar, someone who is deaf or hard of hearing can't wait for a transcript published the next day. They need captions that appear in real time, as the words are spoken."
+    },
+    "remediation": {
+      "fr": "Prévoyez un sous-titrage en direct pour toute diffusion sonore en temps réel : sténotypie professionnelle, ou service de sous-titrage automatique surveillé par une personne. Annoncez à l'avance que les sous-titres seront disponibles et où les activer.",
+      "en": "Arrange live captioning for any real-time audio broadcast: professional stenography, or an automated captioning service monitored by a person. Announce in advance that captions will be available and where to turn them on."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.2.4"
+      ],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.2.5",
+    "name": "Audio Description (Prerecorded)",
+    "name_fr": "Audio-description (préenregistrée)",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.2.5 Audio Description (Prerecorded)",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.2",
+    "guidelineName": "Time-based Media",
+    "url": "https://www.w3.org/TR/WCAG22/#audio-description-prerecorded",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html",
+    "disability_tags": [
+      "blind",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Les vidéos préenregistrées doivent proposer une piste d'audiodescription qui décrit à l'oral les éléments visuels importants non couverts par le dialogue.",
+      "en": "Prerecorded videos must provide an audio description track that describes aloud important visual elements not covered by the dialogue."
+    },
+    "plain": {
+      "fr": "L'audio-description est une voix supplémentaire qui, entre les dialogues, décrit ce qu'on voit : qui entre dans la pièce, ce qui est écrit à l'écran, quand le décor change. Elle permet à une personne aveugle de suivre une vidéo sans rien manquer de l'image.",
+      "en": "Audio description is an extra voice that, between the lines of dialogue, describes what's on screen: who walks in, what text appears, when the setting changes. It lets someone who is blind follow a video without missing anything visual."
+    },
+    "remediation": {
+      "fr": "Produisez une piste d'audio-description pour vos vidéos préenregistrées dont l'image porte de l'information non dite. Faites-la écrire par une personne formée, enregistrer par une voix distincte de la narration d'origine, et proposez-la comme piste audio activable dans le lecteur.",
+      "en": "Produce an audio description track for prerecorded videos whose visuals carry information that isn't spoken. Have it scripted by a trained writer, recorded in a voice distinct from the original narration, and offered as a switchable audio track in the player."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.2.5"
+      ],
+      "rgaa": [
+        "4.5",
+        "4.6"
+      ],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "Au Québec, le SGQRI 008 3.0 exclut ce critère de son périmètre, sauf pour une vidéo dont le contenu porte sur la santé ou la sécurité.",
+      "en": "In Québec, SGQRI 008 3.0 leaves this criterion out of scope, except for a video whose content deals with health or safety."
+    }
+  },
+  {
+    "id": "1.2.6",
+    "name": "Sign Language (Prerecorded)",
+    "name_fr": "Langue des signes (préenregistrée)",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.2.6 Sign Language (Prerecorded)",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.2",
+    "guidelineName": "Time-based Media",
+    "url": "https://www.w3.org/TR/WCAG22/#sign-language-prerecorded",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded.html",
+    "disability_tags": [
+      "deaf-hoh"
+    ],
+    "description": {
+      "fr": "Une traduction en langue des signes peut être proposée en complément de l'audio pour les vidéos préenregistrées, en plus des sous-titres.",
+      "en": "A sign language interpretation may be provided in addition to the audio for prerecorded videos, alongside captions."
+    },
+    "plain": {
+      "fr": "Pour beaucoup de personnes sourdes de naissance, la langue des signes est leur langue première, et le texte écrit une langue seconde, moins confortable. Proposer une traduction en langue des signes rend la vidéo pleinement accessible à ce public.",
+      "en": "For many people who are deaf from birth, sign language is their first language and written text a less comfortable second one. Offering a sign language translation makes the video fully accessible to that audience."
+    },
+    "remediation": {
+      "fr": "Faites traduire la bande sonore de vos vidéos importantes par une personne interprète en langue des signes, filmée et incrustée dans un coin de l'image ou proposée dans une version parallèle. Utilisez la langue des signes du public visé (LSQ au Québec, LSF en France, ASL, etc.).",
+      "en": "Have the soundtrack of your key videos translated by a sign language interpreter, filmed and inset in a corner of the picture or offered as a parallel version. Use the sign language of your target audience (LSQ in Quebec, ASL, BSL, and so on)."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": [
+        "1.2.6"
+      ]
+    },
+    "xref_note": {
+      "fr": "Au Québec, le SGQRI 008 3.0 exige ce critère lorsqu'une page comporte du contenu audio préenregistré, en recourant à la langue des signes québécoise (LSQ).",
+      "en": "In Québec, SGQRI 008 3.0 requires this criterion when a page has prerecorded audio content, using Québec Sign Language (LSQ)."
+    }
+  },
+  {
+    "id": "1.2.7",
+    "name": "Extended Audio Description (Prerecorded)",
+    "name_fr": "Audio-description étendue (préenregistrée)",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.2.7 Extended Audio Description (Prerecorded)",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.2",
+    "guidelineName": "Time-based Media",
+    "url": "https://www.w3.org/TR/WCAG22/#extended-audio-description-prerecorded",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/extended-audio-description-prerecorded.html",
+    "disability_tags": [
+      "blind",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Quand les pauses naturelles d'une vidéo ne suffisent pas à insérer une audiodescription complète, la vidéo peut être mise en pause automatiquement pour laisser le temps de décrire les éléments visuels essentiels.",
+      "en": "When a video's natural pauses are not long enough to insert a complete audio description, the video can be automatically paused to allow time to describe essential visual elements."
+    },
+    "plain": {
+      "fr": "Certaines vidéos sont si denses qu'il n'y a pas assez de silences pour tout décrire à voix haute. Dans ce cas, la vidéo peut se mettre en pause automatiquement le temps que l'audio-description se termine, puis repartir.",
+      "en": "Some videos are so packed that there aren't enough silent gaps to describe everything out loud. In that case, the video can pause automatically until the audio description finishes, then resume."
+    },
+    "remediation": {
+      "fr": "Quand les pauses naturelles de la vidéo ne suffisent pas à placer toute l'audio-description nécessaire, utilisez un lecteur qui gère l'audio-description étendue : il suspend la lecture à chaque description trop longue, puis la reprend. Cette solution ne s'impose que si l'audio-description standard laisse de côté des informations essentielles.",
+      "en": "When the video's natural pauses aren't enough to fit all the audio description needed, use a player that supports extended audio description: it freezes playback for each over-long description, then resumes. This is only needed when standard audio description would leave essential information out."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.2.8",
+    "name": "Media Alternative (Prerecorded)",
+    "name_fr": "Version de remplacement pour média temporel (préenregistrée)",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.2.8 Media Alternative (Prerecorded)",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.2",
+    "guidelineName": "Time-based Media",
+    "url": "https://www.w3.org/TR/WCAG22/#media-alternative-prerecorded",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded.html",
+    "disability_tags": [
+      "blind",
+      "deaf-hoh",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Pour les contenus vidéo synchronisés, une alternative textuelle complète décrivant tout le contenu doit être disponible, en plus des sous-titres et de l'audiodescription.",
+      "en": "For synchronized media content, a full text alternative describing all the content must be available, in addition to captions and audio description."
+    },
+    "plain": {
+      "fr": "Une alternative textuelle complète est un document qui raconte toute la vidéo, paroles et images comprises, de sorte qu'on puisse la comprendre entièrement en lisant, sans jamais la regarder. C'est particulièrement utile pour une personne à la fois sourde et aveugle, qui lit sur une plage braille.",
+      "en": "A full text alternative is a document that recounts the entire video, both speech and visuals, so it can be understood completely by reading, without ever watching it. This is especially useful for someone who is both deaf and blind, reading on a braille display."
+    },
+    "remediation": {
+      "fr": "Rédigez un document texte autonome qui reprend, dans l'ordre, tous les dialogues et toutes les informations visuelles de la vidéo. Traitez-le comme un script complet plutôt qu'un résumé. Publiez-le sur une page clairement liée depuis la vidéo.",
+      "en": "Write a standalone text document that captures, in order, all the dialogue and all the visual information in the video. Treat it as a complete script rather than a summary. Publish it on a page clearly linked from the video."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.2.9",
+    "name": "Audio-only (Live)",
+    "name_fr": "Seulement audio (en direct)",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.2.9 Audio-only (Live)",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.2",
+    "guidelineName": "Time-based Media",
+    "url": "https://www.w3.org/TR/WCAG22/#audio-only-live",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live.html",
+    "disability_tags": [
+      "deaf-hoh",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Un contenu diffusé uniquement en audio et en direct doit être accompagné d'une alternative textuelle équivalente.",
+      "en": "Content broadcast only in audio and live must be accompanied by an equivalent text alternative."
+    },
+    "plain": {
+      "fr": "Quand une émission est diffusée en direct et seulement en son, sans image, une personne sourde ou malentendante n'a aucun moyen de suivre. Une transcription produite en temps réel lui donne accès au propos pendant qu'il se tient.",
+      "en": "When a broadcast is live and sound only, with no picture, someone who is deaf or hard of hearing has no way to follow it. A transcript produced in real time gives them access to what's being said as it happens."
+    },
+    "remediation": {
+      "fr": "Pour une diffusion sonore en direct, prévoyez une transcription en temps réel affichée à côté du lecteur, par un service de sténotypie ou de sous-titrage surveillé. Conservez ensuite cette transcription comme version écrite du contenu.",
+      "en": "For a live audio-only broadcast, provide real-time transcription shown next to the player, via a stenography or monitored captioning service. Keep that transcript afterward as the written version of the content."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.3.1",
+    "name": "Info and Relationships",
+    "name_fr": "Information et relations",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.3.1 Info and Relationships",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.3",
+    "guidelineName": "Adaptable",
+    "url": "https://www.w3.org/TR/WCAG22/#info-and-relationships",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html",
+    "disability_tags": [
+      "blind",
+      "low-vision",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "La structure et les relations entre les éléments d'une page (titres, listes, tableaux, champs de formulaire) doivent être transmises par le code, pas seulement par l'apparence visuelle, pour que cette structure reste compréhensible avec une technologie d'assistance.",
+      "en": "The structure and relationships between elements on a page (headings, lists, tables, form fields) must be conveyed through code, not just visual appearance, so that structure remains understandable with assistive technology."
+    },
+    "plain": {
+      "fr": "Ce qu'on comprend d'un coup d'œil (« ça, c'est un titre », « ça, c'est un tableau », « ces éléments vont ensemble ») doit aussi exister dans le code de la page, pas seulement dans son apparence. Sinon, un logiciel qui lit la page à voix haute présente tout comme un bloc de texte uniforme.",
+      "en": "What you grasp at a glance (\"that's a heading\", \"that's a table\", \"these items belong together\") has to exist in the page's code too, not just in how it looks. Otherwise software that reads the page aloud presents everything as one flat block of text."
+    },
+    "remediation": {
+      "fr": "Construisez la page avec les éléments qui portent le bon sens : vrais titres hiérarchisés, listes, tableaux de données avec cellules d'en-tête, champs de formulaire reliés à leur étiquette. N'imitez pas ces structures avec de la seule mise en forme visuelle (gras, retraits, couleurs).",
+      "en": "Build the page with elements that carry the right meaning: real ranked headings, lists, data tables with header cells, form fields tied to their labels. Don't fake these structures with visual styling alone (bold, indentation, colour)."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.3.1"
+      ],
+      "rgaa": [
+        "3.1",
+        "5.1",
+        "5.2",
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8",
+        "7.3",
+        "8.9",
+        "9.1",
+        "9.2",
+        "9.3",
+        "9.4",
+        "10.1",
+        "10.2",
+        "11.1",
+        "11.5",
+        "11.6",
+        "11.7",
+        "11.8",
+        "12.6",
+        "13.3",
+        "13.4"
+      ],
+      "qc": [
+        "1.3.1"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.3.2",
+    "name": "Meaningful Sequence",
+    "name_fr": "Ordre séquentiel logique",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.3.2 Meaningful Sequence",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.3",
+    "guidelineName": "Adaptable",
+    "url": "https://www.w3.org/TR/WCAG22/#meaningful-sequence",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence.html",
+    "disability_tags": [
+      "blind",
+      "low-vision",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Quand l'ordre de lecture d'un contenu a une importance, cet ordre doit être conservé même lorsqu'on retire la mise en forme visuelle, notamment pour les technologies d'assistance qui lisent le contenu de façon linéaire.",
+      "en": "When the reading order of content matters, that order must be preserved even when visual formatting is removed, particularly for assistive technologies that read content linearly."
+    },
+    "plain": {
+      "fr": "Un lecteur d'écran, ou une page dont on a retiré la mise en forme, lit le contenu dans l'ordre du code, de haut en bas. Si cet ordre ne correspond pas à l'ordre logique de lecture, le texte devient décousu.",
+      "en": "A screen reader, or a page with its styling stripped away, reads content in the order of the code, top to bottom. If that order doesn't match the logical reading order, the text turns into a jumble."
+    },
+    "remediation": {
+      "fr": "Faites en sorte que l'ordre des éléments dans le code suive l'ordre dans lequel on doit les lire. Servez-vous de la mise en page pour positionner les blocs à l'écran, sans jamais déplacer visuellement un contenu à un endroit qui contredit sa place dans le code.",
+      "en": "Make the order of elements in the code follow the order in which they should be read. Use layout to position blocks on screen, but never visually move content to a spot that contradicts where it sits in the code."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.3.2"
+      ],
+      "rgaa": [
+        "5.3",
+        "8.10",
+        "10.1",
+        "10.3",
+        "10.8",
+        "13.3",
+        "13.4"
+      ],
+      "qc": [
+        "1.3.2"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.3.3",
+    "name": "Sensory Characteristics",
+    "name_fr": "Caractéristiques sensorielles",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.3.3 Sensory Characteristics",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.3",
+    "guidelineName": "Adaptable",
+    "url": "https://www.w3.org/TR/WCAG22/#sensory-characteristics",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html",
+    "disability_tags": [
+      "blind",
+      "low-vision",
+      "color-blind",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Les instructions ne doivent pas reposer uniquement sur des caractéristiques sensorielles comme la forme, la position ou la couleur, pour rester compréhensibles par tout le monde.",
+      "en": "Instructions must not rely solely on sensory characteristics like shape, position, or colour, so they remain understandable to everyone."
+    },
+    "plain": {
+      "fr": "Une consigne comme « cliquez sur le bouton rond à droite » ne veut rien dire pour une personne qui ne perçoit ni la forme ni la position, ou qui navigue au clavier dans un autre ordre. Il faut toujours nommer l'élément, pas seulement le situer.",
+      "en": "An instruction like \"click the round button on the right\" means nothing to someone who can't perceive shape or position, or who navigates by keyboard in a different order. Always name the element, don't just place it."
+    },
+    "remediation": {
+      "fr": "Dans vos consignes, désignez les éléments par leur intitulé (« le bouton Envoyer ») plutôt que par leur seule forme, couleur, taille ou position (« le bouton vert », « ci-dessous »). Ajoutez un repère textuel quand vous devez malgré tout parler d'emplacement.",
+      "en": "In your instructions, refer to elements by their label (\"the Send button\") rather than by shape, colour, size, or position alone (\"the green button\", \"below\"). Add a text cue whenever you still need to mention location."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.3.3"
+      ],
+      "rgaa": [
+        "10.9",
+        "10.10"
+      ],
+      "qc": [
+        "1.3.3"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.3.4",
+    "name": "Orientation",
+    "name_fr": "Orientation",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.3.4 Orientation",
+    "level": "AA",
+    "version": "2.1",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.3",
+    "guidelineName": "Adaptable",
+    "url": "https://www.w3.org/TR/WCAG22/#orientation",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/orientation.html",
+    "disability_tags": [
+      "motor",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Le contenu ne doit pas être restreint à une seule orientation d'écran, portrait ou paysage, sauf si cette orientation est essentielle à l'usage.",
+      "en": "Content must not be restricted to a single screen orientation, portrait or landscape, unless that orientation is essential to its use."
+    },
+    "plain": {
+      "fr": "Toutes les personnes ne tiennent pas leur appareil de la même façon : certaines l'ont fixé sur un fauteuil roulant en mode paysage, d'autres agrandissent tout et préfèrent l'horizontale. Forcer une seule orientation les bloque.",
+      "en": "Not everyone holds their device the same way: some have it mounted to a wheelchair in landscape, others zoom everything in and prefer horizontal. Forcing a single orientation locks them out."
+    },
+    "remediation": {
+      "fr": "Laissez le contenu s'afficher aussi bien en portrait qu'en paysage et adaptez la mise en page à chaque orientation. Ne verrouillez l'orientation que si elle est essentielle à l'usage, par exemple un clavier de piano à l'écran.",
+      "en": "Let content display in both portrait and landscape, and adapt the layout to each. Only lock orientation when it is essential to the purpose, for instance an on-screen piano keyboard."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.3.4"
+      ],
+      "rgaa": [
+        "13.9"
+      ],
+      "qc": [
+        "1.3.4"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.3.5",
+    "name": "Identify Input Purpose",
+    "name_fr": "Identifier la finalité de la saisie",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.3.5 Identify Input Purpose",
+    "level": "AA",
+    "version": "2.1",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.3",
+    "guidelineName": "Adaptable",
+    "url": "https://www.w3.org/TR/WCAG22/#identify-input-purpose",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html",
+    "disability_tags": [
+      "motor",
+      "cognitive",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Les champs de formulaire qui demandent des informations courantes sur la personne (nom, adresse courriel, numéro de téléphone) doivent être identifiés par programmation, pour permettre le remplissage automatique.",
+      "en": "Form fields that request common information about the person (name, email address, phone number) must be identified programmatically, to enable autofill."
+    },
+    "plain": {
+      "fr": "Quand un formulaire demande des informations classiques comme le nom, le courriel ou le téléphone, le navigateur ou un gestionnaire de mots de passe peut les remplir tout seul, à condition de savoir à quoi sert chaque champ. Ça évite de tout retaper, ce qui aide surtout les personnes avec un handicap moteur ou une fatigue cognitive.",
+      "en": "When a form asks for standard details like name, email, or phone, the browser or a password manager can fill them in on its own, as long as it knows what each field is for. That saves retyping everything, which helps people with a motor disability or cognitive fatigue most of all."
+    },
+    "remediation": {
+      "fr": "Sur les champs qui demandent des données personnelles courantes, ajoutez l'attribut `autocomplete` avec la valeur normalisée correspondante (`email`, `tel`, `given-name`, etc.). Le champ reste identique à l'écran ; c'est le remplissage automatique qui devient possible.",
+      "en": "On fields that ask for common personal data, add the `autocomplete` attribute with the matching standard value (`email`, `tel`, `given-name`, and so on). The field looks the same on screen; what becomes possible is autofill."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.3.5"
+      ],
+      "rgaa": [
+        "11.13"
+      ],
+      "qc": [
+        "1.3.5"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.3.6",
+    "name": "Identify Purpose",
+    "name_fr": "Identifier la finalité",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.3.6 Identify Purpose",
+    "level": "AAA",
+    "version": "2.1",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.3",
+    "guidelineName": "Adaptable",
+    "url": "https://www.w3.org/TR/WCAG22/#identify-purpose",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose.html",
+    "disability_tags": [
+      "cognitive",
+      "motor"
+    ],
+    "description": {
+      "fr": "Au-delà des champs de formulaire, la fonction des composants, icônes et régions d'une page peut être identifiée par programmation, pour permettre une adaptation ou une personnalisation par des outils tiers.",
+      "en": "Beyond form fields, the purpose of components, icons, and regions on a page can be identified programmatically, to enable adaptation or personalization by third-party tools."
+    },
+    "plain": {
+      "fr": "Au-delà des formulaires, on peut indiquer dans le code à quoi sert chaque bouton, icône ou grande zone de la page (« ça, c'est la navigation », « ça, c'est une alerte »). Des outils tiers peuvent alors simplifier l'affichage ou remplacer les icônes par des symboles familiers, pour les personnes avec un handicap cognitif.",
+      "en": "Beyond forms, you can state in the code what each button, icon, or large region of the page is for (\"this is navigation\", \"this is an alert\"). Third-party tools can then simplify the display or swap icons for familiar symbols, for people with a cognitive disability."
+    },
+    "remediation": {
+      "fr": "Utilisez les rôles et repères normalisés pour identifier les régions de la page (navigation, contenu principal, recherche…) et la fonction des composants récurrents. Associez aux icônes une valeur de finalité tirée d'un vocabulaire reconnu, pour que les outils de personnalisation puissent s'appuyer dessus.",
+      "en": "Use standard roles and landmarks to identify the page's regions (navigation, main content, search, and so on) and the purpose of recurring components. Pair icons with a purpose value from an established vocabulary so personalization tools can build on it."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.4.1",
+    "name": "Use of Color",
+    "name_fr": "Utilisation de la couleur",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.4.1 Use of Color",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.4",
+    "guidelineName": "Distinguishable",
+    "url": "https://www.w3.org/TR/WCAG22/#use-of-color",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+    "disability_tags": [
+      "color-blind",
+      "low-vision",
+      "blind"
+    ],
+    "description": {
+      "fr": "L'information ne doit jamais être transmise uniquement par la couleur, un repère supplémentaire (texte, forme, icône) doit toujours l'accompagner.",
+      "en": "Information must never be conveyed by colour alone; an additional cue (text, shape, icon) must always accompany it."
+    },
+    "plain": {
+      "fr": "Une partie des gens ne distingue pas certaines couleurs entre elles, et un lecteur d'écran n'annonce aucune couleur du tout. Si le rouge est le seul indice qu'un champ est en erreur ou obligatoire, ces personnes passent à côté de l'information.",
+      "en": "Some people can't tell certain colours apart, and a screen reader announces no colour at all. If red is the only sign that a field has an error or is required, those people miss the information."
+    },
+    "remediation": {
+      "fr": "Chaque fois que la couleur porte une information, doublez-la d'un autre indice : un mot, une icône, un motif, un soulignement. Par exemple, un champ en erreur reçoit à la fois un contour rouge et un message texte ; un lien dans un paragraphe est souligné, pas seulement coloré.",
+      "en": "Whenever colour carries information, back it up with another cue: a word, an icon, a pattern, an underline. For instance, a field in error gets both a red outline and a text message; a link inside a paragraph is underlined, not just coloured."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.4.1"
+      ],
+      "rgaa": [
+        "3.1",
+        "10.6",
+        "10.7",
+        "10.9",
+        "10.10"
+      ],
+      "qc": [
+        "1.4.1"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.4.2",
+    "name": "Audio Control",
+    "name_fr": "Contrôle du son",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.4.2 Audio Control",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.4",
+    "guidelineName": "Distinguishable",
+    "url": "https://www.w3.org/TR/WCAG22/#audio-control",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/audio-control.html",
+    "disability_tags": [
+      "blind",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Un son qui démarre automatiquement pendant plus de trois secondes doit pouvoir être mis en pause, arrêté, ou son volume contrôlé indépendamment du volume du système.",
+      "en": "A sound that starts automatically for more than three seconds must be pausable, stoppable, or have its volume controllable independently of the system volume."
+    },
+    "plain": {
+      "fr": "Un son qui se lance tout seul au chargement d'une page couvre la voix d'un lecteur d'écran et rend la page inutilisable pour qui s'en sert. Il gêne aussi les personnes qui ont du mal à se concentrer.",
+      "en": "Sound that starts on its own when a page loads drowns out a screen reader's voice and makes the page unusable for anyone relying on one. It also gets in the way of people who struggle to concentrate."
+    },
+    "remediation": {
+      "fr": "Évitez de lancer un son automatiquement. Si vous devez le faire et qu'il dure plus de trois secondes, placez tout de suite, en haut de la page, une commande pour l'arrêter ou couper le volume, atteignable au clavier. Ne comptez pas sur le réglage de volume du système, qui coupe aussi le lecteur d'écran.",
+      "en": "Avoid playing sound automatically. If you must, and it lasts more than three seconds, put a control to stop it or mute it at the very top of the page, reachable by keyboard. Don't rely on the system volume, which also silences the screen reader."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.4.2"
+      ],
+      "rgaa": [
+        "4.10"
+      ],
+      "qc": [
+        "1.4.2"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.4.3",
+    "name": "Contrast (Minimum)",
+    "name_fr": "Contraste (minimum)",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.4.3 Contrast (Minimum)",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.4",
+    "guidelineName": "Distinguishable",
+    "url": "https://www.w3.org/TR/WCAG22/#contrast-minimum",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "disability_tags": [
+      "low-vision",
+      "color-blind"
+    ],
+    "description": {
+      "fr": "Le texte doit se détacher suffisamment de son fond pour rester lisible, y compris pour les personnes malvoyantes ou dans de mauvaises conditions d'éclairage.",
+      "en": "Text must stand out sufficiently from its background to remain readable, including for low-vision people or in poor lighting conditions."
+    },
+    "plain": {
+      "fr": "Un texte trop proche de la couleur de son fond devient dur à lire pour une personne malvoyante, une personne âgée, ou n'importe qui en plein soleil. Un écart de luminosité suffisant garde le texte lisible.",
+      "en": "Text too close in colour to its background becomes hard to read for someone with low vision, an older reader, or anyone in bright sunlight. Enough difference in brightness keeps the text legible."
+    },
+    "remediation": {
+      "fr": "Visez un rapport de contraste d'au moins 4,5:1 entre le texte et son fond, ou 3:1 pour les grands caractères (environ 24 px, ou 19 px en gras). Vérifiez chaque couple texte/fond avec un outil de contraste, y compris le texte posé sur une image ou un dégradé.",
+      "en": "Aim for a contrast ratio of at least 4.5:1 between text and its background, or 3:1 for large text (about 24 px, or 19 px bold). Check every text-on-background pair with a contrast tool, including text over an image or a gradient."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.4.3"
+      ],
+      "rgaa": [
+        "3.2",
+        "10.5"
+      ],
+      "qc": [
+        "1.4.3"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.4.4",
+    "name": "Resize Text",
+    "name_fr": "Redimensionnement du texte",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.4.4 Resize Text",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.4",
+    "guidelineName": "Distinguishable",
+    "url": "https://www.w3.org/TR/WCAG22/#resize-text",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html",
+    "disability_tags": [
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Le texte doit pouvoir être agrandi jusqu'à 200% sans perte de contenu ni de fonctionnalité, uniquement avec les outils du navigateur.",
+      "en": "Text must be resizable up to 200% without loss of content or functionality, using only the browser's own tools."
+    },
+    "plain": {
+      "fr": "Beaucoup de gens agrandissent le texte d'une page avec le zoom de leur navigateur pour lire confortablement. Le contenu doit tenir le coup jusqu'à 200 % sans que du texte soit coupé, se chevauche, ou qu'un bouton devienne inatteignable.",
+      "en": "Many people enlarge a page's text with their browser zoom to read comfortably. The content has to hold up to 200% without text being cut off, overlapping, or a button becoming unreachable."
+    },
+    "remediation": {
+      "fr": "Construisez la mise en page avec des unités qui s'adaptent (pourcentages, em, rem) plutôt que des tailles fixes en pixels, et laissez les conteneurs grandir avec leur contenu. Testez la page au zoom navigateur à 200 % : tout le texte reste visible et toutes les fonctions restent utilisables.",
+      "en": "Build the layout with units that adapt (percentages, em, rem) rather than fixed pixel sizes, and let containers grow with their content. Test the page at 200% browser zoom: all text stays visible and every function stays usable."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.4.4"
+      ],
+      "rgaa": [
+        "10.4"
+      ],
+      "qc": [
+        "1.4.4"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.4.5",
+    "name": "Images of Text",
+    "name_fr": "Texte sous forme d'image",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.4.5 Images of Text",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.4",
+    "guidelineName": "Distinguishable",
+    "url": "https://www.w3.org/TR/WCAG22/#images-of-text",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/images-of-text.html",
+    "disability_tags": [
+      "low-vision",
+      "blind",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Le texte doit être présenté sous forme de texte réel plutôt que sous forme d'image, sauf exception, pour rester adaptable et lisible par les technologies d'assistance.",
+      "en": "Text must be presented as real text rather than as an image, except in specific cases, so it remains adaptable and readable by assistive technologies."
+    },
+    "plain": {
+      "fr": "Quand un texte est en fait une image, on ne peut ni l'agrandir sans qu'il devienne flou, ni changer sa couleur, ni le faire lire par un lecteur d'écran s'il n'a pas d'alternative. Du vrai texte s'adapte à chaque personne.",
+      "en": "When text is actually an image, you can't enlarge it without it going blurry, change its colour, or have a screen reader read it unless it has an alternative. Real text adapts to each person."
+    },
+    "remediation": {
+      "fr": "Écrivez le texte en HTML et mettez-le en forme avec du CSS (police, couleur, ombre, fond). Réservez les images de texte aux cas où l'apparence exacte est indispensable, comme un logo, et donnez-leur alors un texte de remplacement reprenant les mots affichés.",
+      "en": "Write the text in HTML and style it with CSS (font, colour, shadow, background). Keep images of text for cases where the exact look is essential, such as a logo, and give them a text alternative that repeats the words shown."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.4.5"
+      ],
+      "rgaa": [
+        "1.8"
+      ],
+      "qc": [
+        "1.4.5"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.4.6",
+    "name": "Contrast (Enhanced)",
+    "name_fr": "Contraste (amélioré)",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.4.6 Contrast (Enhanced)",
+    "level": "AAA",
+    "version": "2.1",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.4",
+    "guidelineName": "Distinguishable",
+    "url": "https://www.w3.org/TR/WCAG22/#contrast-enhanced",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html",
+    "disability_tags": [
+      "low-vision",
+      "color-blind"
+    ],
+    "description": {
+      "fr": "Un niveau de contraste renforcé, soit 7:1 pour le texte courant, peut être appliqué pour une lisibilité optimale, au-delà du minimum requis en AA.",
+      "en": "An enhanced contrast level, 7:1 for body text, can be applied for optimal readability, beyond the minimum required at AA."
+    },
+    "plain": {
+      "fr": "C'est la version exigeante de la règle de contraste. Un écart de luminosité encore plus large, soit 7:1 pour le texte courant, rend la lecture confortable pour les personnes qui ont une basse vision marquée, au-delà du seuil minimal.",
+      "en": "This is the demanding version of the contrast rule. An even wider difference in brightness, 7:1 for body text, makes reading comfortable for people with significant low vision, beyond the minimum bar."
+    },
+    "remediation": {
+      "fr": "Pour viser ce niveau, portez le rapport de contraste à 7:1 pour le texte courant et 4,5:1 pour les grands caractères. En pratique, cela revient souvent à utiliser du texte bien noir sur fond blanc, ou l'inverse, et à écarter les gris moyens.",
+      "en": "To reach this level, raise the contrast ratio to 7:1 for body text and 4.5:1 for large text. In practice this often means solid black text on white, or the reverse, and dropping mid-greys."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.4.7",
+    "name": "Low or No Background Audio",
+    "name_fr": "Arrière-plan sonore faible ou absent",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.4.7 Low or No Background Audio",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.4",
+    "guidelineName": "Distinguishable",
+    "url": "https://www.w3.org/TR/WCAG22/#low-or-no-background-audio",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio.html",
+    "disability_tags": [
+      "deaf-hoh",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Dans un contenu audio principalement vocal, tout son de fond doit être suffisamment discret, absent, ou contrôlable, pour ne pas nuire à la compréhension de la parole.",
+      "en": "In content that is primarily speech, any background sound must be sufficiently quiet, absent, or controllable, so it does not interfere with understanding the speech."
+    },
+    "plain": {
+      "fr": "Dans un enregistrement où quelqu'un parle, une musique ou une ambiance sonore trop forte oblige à un effort d'écoute que toutes les personnes malentendantes ne peuvent pas fournir. La voix doit rester nettement au premier plan.",
+      "en": "In a recording where someone is speaking, background music or ambience that is too loud forces a listening effort that not every hard-of-hearing person can make. The voice has to stay clearly in front."
+    },
+    "remediation": {
+      "fr": "Dans un contenu surtout parlé, coupez le son de fond, ou gardez-le au moins 20 décibels sous la voix, ou offrez une version sans fond sonore. Les brefs effets ponctuels ne sont pas visés.",
+      "en": "In content that is mostly speech, cut the background sound, keep it at least 20 decibels below the voice, or offer a version with no background at all. Short one-off sound effects don't count."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.4.8",
+    "name": "Visual Presentation",
+    "name_fr": "Présentation visuelle",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.4.8 Visual Presentation",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.4",
+    "guidelineName": "Distinguishable",
+    "url": "https://www.w3.org/TR/WCAG22/#visual-presentation",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html",
+    "disability_tags": [
+      "low-vision",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Un contenu textuel long doit permettre d'ajuster certains réglages de présentation, comme les couleurs, la largeur ou l'interligne, pour l'adapter aux besoins de lecture de chacun.",
+      "en": "Long-form text content must allow certain presentation settings, such as colours, width, or line spacing, to be adjusted to suit each person's reading needs."
+    },
+    "plain": {
+      "fr": "Chacun lit mieux dans des conditions différentes : certains ont besoin d'un fond crème, d'autres de lignes courtes, d'autres d'un grand interligne. Pour les longs textes, la personne devrait pouvoir régler ces paramètres.",
+      "en": "Everyone reads better under different conditions: some need a cream background, others short lines, others wide line spacing. For long texts, the reader should be able to set these."
+    },
+    "remediation": {
+      "fr": "Pour les blocs de texte longs, permettez de choisir les couleurs de texte et de fond, limitez la largeur à environ 80 caractères, n'imposez pas de justification, et prévoyez un interligne d'au moins 1,5 dans les paragraphes. Un thème de lecture, ou le respect des réglages du navigateur, suffit souvent.",
+      "en": "For long blocks of text, let the reader choose text and background colours, keep the line width to around 80 characters, don't force justification, and set line spacing to at least 1.5 within paragraphs. A reading theme, or honouring the browser's settings, often covers this."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.4.9",
+    "name": "Images of Text (No Exception)",
+    "name_fr": "Texte sous forme d'image (sans exception)",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.4.9 Images of Text (No Exception)",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.4",
+    "guidelineName": "Distinguishable",
+    "url": "https://www.w3.org/TR/WCAG22/#images-of-text-no-exception",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception.html",
+    "disability_tags": [
+      "low-vision",
+      "blind",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Le texte sous forme d'image n'est autorisé dans aucun cas, pas même comme exception esthétique, sauf pour les logos.",
+      "en": "Text presented as an image is not allowed in any case, not even as an aesthetic exception, except for logos."
+    },
+    "plain": {
+      "fr": "Même règle que le texte sous forme d'image, mais sans tolérance : à ce niveau, aucune image de texte n'est acceptée, à part les logos et les cas où un mot doit apparaître exactement tel quel.",
+      "en": "Same rule as images of text, but with no leeway: at this level no image of text is accepted, apart from logos and cases where a word must appear exactly as-is."
+    },
+    "remediation": {
+      "fr": "Passez en revue le site et remplacez toute image contenant du texte par du texte réel mis en forme en CSS. Ne gardez en image que les logos et les marques déposées.",
+      "en": "Go through the site and replace every image that contains text with real text styled in CSS. Keep only logos and trademarks as images."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.4.10",
+    "name": "Reflow",
+    "name_fr": "Redistribution",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.4.10 Reflow",
+    "level": "AA",
+    "version": "2.1",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.4",
+    "guidelineName": "Distinguishable",
+    "url": "https://www.w3.org/TR/WCAG22/#reflow",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+    "disability_tags": [
+      "low-vision",
+      "motor"
+    ],
+    "description": {
+      "fr": "Le contenu doit rester utilisable sans défilement horizontal ni perte d'information lorsqu'il est affiché sur un petit écran ou fortement zoomé, jusqu'à l'équivalent de 320 pixels de large.",
+      "en": "Content must remain usable without horizontal scrolling or loss of information when displayed on a small screen or zoomed in heavily, down to the equivalent of 320 pixels wide."
+    },
+    "plain": {
+      "fr": "Sur un petit écran, ou quand on zoome fort, le contenu doit se réorganiser en une seule colonne. Devoir faire glisser chaque ligne de gauche à droite pour la lire rend une page épuisante, en particulier pour une personne à mobilité réduite.",
+      "en": "On a small screen, or when zoomed in hard, content has to reflow into a single column. Having to drag every line left and right to read it makes a page exhausting, especially for someone with limited mobility."
+    },
+    "remediation": {
+      "fr": "Utilisez une mise en page fluide qui repasse le contenu sur une colonne quand la place manque, jusqu'à l'équivalent de 320 pixels de large (soit un zoom de 400 % sur un écran de bureau courant). Aucun défilement horizontal ne doit être nécessaire, sauf pour les éléments qui l'exigent par nature, comme un grand tableau ou une carte.",
+      "en": "Use a fluid layout that collapses content into one column when space runs short, down to the equivalent of 320 pixels wide (that's 400% zoom on a typical desktop screen). No horizontal scrolling should be needed, except for elements that require it by nature, such as a large table or a map."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.4.10"
+      ],
+      "rgaa": [
+        "10.11"
+      ],
+      "qc": [
+        "1.4.10"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.4.11",
+    "name": "Non-text Contrast",
+    "name_fr": "Contraste des éléments non textuels",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.4.11 Non-text Contrast",
+    "level": "AA",
+    "version": "2.1",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.4",
+    "guidelineName": "Distinguishable",
+    "url": "https://www.w3.org/TR/WCAG22/#non-text-contrast",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+    "disability_tags": [
+      "low-vision",
+      "color-blind"
+    ],
+    "description": {
+      "fr": "Les éléments d'interface, comme les bordures de champs, les icônes et les indicateurs d'état, doivent aussi respecter un contraste minimum avec leur environnement.",
+      "en": "Interface elements, such as field borders, icons, and status indicators, must also meet a minimum contrast with their surroundings."
+    },
+    "plain": {
+      "fr": "Le contraste ne concerne pas que le texte. Le contour d'un champ, une icône, la barre d'un graphique ou l'anneau qui montre où se trouve le focus doivent aussi se voir nettement, sinon on ne sait plus où cliquer ni ce qui est actif.",
+      "en": "Contrast isn't only about text. A field's outline, an icon, a bar in a chart, or the ring that shows where the focus is must also stand out clearly, or you can't tell where to click or what is active."
+    },
+    "remediation": {
+      "fr": "Assurez un rapport de contraste d'au moins 3:1 entre les éléments d'interface et ce qui les entoure : bordures de champs, icônes porteuses de sens, états au survol et au focus, segments de graphiques. Les éléments purement décoratifs et les composants désactivés ne sont pas visés.",
+      "en": "Ensure a contrast ratio of at least 3:1 between interface elements and what surrounds them: field borders, meaningful icons, hover and focus states, chart segments. Purely decorative elements and disabled components are exempt."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.4.11"
+      ],
+      "rgaa": [
+        "3.3"
+      ],
+      "qc": [
+        "1.4.11"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.4.12",
+    "name": "Text Spacing",
+    "name_fr": "Espacement du texte",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.4.12 Text Spacing",
+    "level": "AA",
+    "version": "2.1",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.4",
+    "guidelineName": "Distinguishable",
+    "url": "https://www.w3.org/TR/WCAG22/#text-spacing",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html",
+    "disability_tags": [
+      "low-vision",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Le contenu doit rester lisible et fonctionnel même lorsque la personne applique ses propres réglages d'espacement de texte, comme l'interligne ou l'espace entre les mots.",
+      "en": "Content must remain readable and functional even when a person applies their own text spacing settings, such as line height or word spacing."
+    },
+    "plain": {
+      "fr": "Certaines personnes, notamment dyslexiques, lisent beaucoup mieux en augmentant l'espace entre les lignes, les mots et les lettres, souvent avec une extension de navigateur. La page ne doit pas casser quand elles le font.",
+      "en": "Some people, dyslexic readers among them, read much better with more space between lines, words, and letters, often set with a browser extension. The page must not break when they do."
+    },
+    "remediation": {
+      "fr": "Ne fixez pas la hauteur des blocs qui contiennent du texte ; laissez-les grandir. Vérifiez que la page reste lisible et complète avec un interligne de 1,5 fois la taille de police, un espace entre paragraphes de 2 fois, un espace entre mots de 0,16 fois et entre lettres de 0,12 fois.",
+      "en": "Don't fix the height of blocks that hold text; let them grow. Check that the page stays readable and complete with line spacing at 1.5 times the font size, paragraph spacing at 2 times, word spacing at 0.16 times, and letter spacing at 0.12 times."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.4.12"
+      ],
+      "rgaa": [
+        "10.12"
+      ],
+      "qc": [
+        "1.4.12"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "1.4.13",
+    "name": "Content on Hover or Focus",
+    "name_fr": "Contenu au survol ou au focus",
+    "fullTitle": "WCAG 2.2 Success Criterion 1.4.13 Content on Hover or Focus",
+    "level": "AA",
+    "version": "2.1",
+    "principle": "Perceivable",
+    "principleLetter": "P",
+    "guidelineId": "1.4",
+    "guidelineName": "Distinguishable",
+    "url": "https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html",
+    "disability_tags": [
+      "low-vision",
+      "motor",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Un contenu supplémentaire qui apparaît au survol ou au focus doit pouvoir être fermé sans déplacer le pointeur, rester visible assez longtemps, et ne pas disparaître si on l'approche avec la souris.",
+      "en": "Additional content that appears on hover or focus must be dismissible without moving the pointer, remain visible long enough, and not disappear when approached with the mouse."
+    },
+    "plain": {
+      "fr": "Quand une infobulle ou un menu apparaît au survol ou au clavier, il faut pouvoir le lire tranquillement : le faire disparaître sans bouger la souris, garder la souris dessus sans qu'il se ferme, et le voir rester tant qu'on ne l'a pas fermé. Sinon une personne qui lit lentement ou qui zoome n'a pas le temps d'en prendre connaissance.",
+      "en": "When a tooltip or menu appears on hover or via the keyboard, you need to be able to read it calmly: dismiss it without moving the mouse, keep the mouse on it without it closing, and see it stay until you dismiss it. Otherwise someone who reads slowly or zooms in doesn't get the chance to take it in."
+    },
+    "remediation": {
+      "fr": "Pour tout contenu qui surgit au survol ou au focus : rendez-le fermable avec la touche Échap sans déplacer le pointeur, laissez le pointeur se poser dessus sans qu'il disparaisse, et ne le masquez pas tout seul avant que la personne quitte la zone. Un délai d'apparition court évite les déclenchements involontaires.",
+      "en": "For any content that pops up on hover or focus: make it dismissible with the Esc key without moving the pointer, let the pointer rest on it without it vanishing, and don't hide it on a timer before the person leaves the area. A short show delay avoids accidental triggers."
+    },
+    "xref": {
+      "en301549": [
+        "9.1.4.13"
+      ],
+      "rgaa": [
+        "10.13"
+      ],
+      "qc": [
+        "1.4.13"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.1.1",
+    "name": "Keyboard",
+    "name_fr": "Clavier",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.1.1 Keyboard",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.1",
+    "guidelineName": "Keyboard Accessible",
+    "url": "https://www.w3.org/TR/WCAG22/#keyboard",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html",
+    "disability_tags": [
+      "motor",
+      "blind"
+    ],
+    "description": {
+      "fr": "Toutes les fonctionnalités doivent être utilisables entièrement au clavier, sans dépendre d'un mouvement de souris précis.",
+      "en": "All functionality must be operable entirely through a keyboard, without depending on a precise mouse movement."
+    },
+    "plain": {
+      "fr": "Une personne aveugle, ou qui ne peut pas tenir de souris, se déplace dans une page uniquement avec le clavier : la tabulation, les flèches, Entrée, la barre d'espace. Tout ce qu'on peut faire à la souris doit donc être possible au clavier.",
+      "en": "Someone who is blind, or who can't hold a mouse, moves through a page using the keyboard alone: Tab, arrow keys, Enter, Space. So anything you can do with a mouse has to be possible from the keyboard."
+    },
+    "remediation": {
+      "fr": "Servez-vous des éléments interactifs natifs (liens, boutons, champs), qui répondent déjà au clavier. Pour un composant sur mesure, gérez les touches attendues et rendez-le atteignable dans l'ordre de tabulation. Testez chaque fonction sans toucher la souris.",
+      "en": "Use native interactive elements (links, buttons, fields), which already respond to the keyboard. For a custom component, handle the expected keys and make it reachable in the tab order. Test every function without touching the mouse."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.1.1"
+      ],
+      "rgaa": [
+        "4.11",
+        "4.12",
+        "7.3",
+        "10.14",
+        "12.9",
+        "12.11"
+      ],
+      "qc": [
+        "2.1.1"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.1.2",
+    "name": "No Keyboard Trap",
+    "name_fr": "Pas de piège au clavier",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.1.2 No Keyboard Trap",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.1",
+    "guidelineName": "Keyboard Accessible",
+    "url": "https://www.w3.org/TR/WCAG22/#no-keyboard-trap",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html",
+    "disability_tags": [
+      "motor",
+      "blind"
+    ],
+    "description": {
+      "fr": "Si un élément peut être atteint au clavier, il doit aussi être possible d'en sortir au clavier, sans que le focus reste bloqué à l'intérieur.",
+      "en": "If an element can be reached by keyboard, it must also be possible to leave it by keyboard, without the focus becoming trapped inside."
+    },
+    "plain": {
+      "fr": "Il arrive qu'on entre au clavier dans une zone (une fenêtre modale, un lecteur vidéo, un champ enrichi) et qu'on ne puisse plus en sortir : la tabulation tourne en rond. La personne est coincée et doit recharger la page.",
+      "en": "Sometimes you tab into an area (a modal, a video player, a rich text field) and then can't get out: Tab just cycles inside it. The person is stuck and has to reload the page."
+    },
+    "remediation": {
+      "fr": "Vérifiez qu'on peut quitter chaque composant avec la tabulation seule, ou avec la touche Échap pour les fenêtres modales. Si un élément doit retenir le focus, comme une modale ouverte, fournissez une sortie claire et annoncée.",
+      "en": "Check that you can leave every component with Tab alone, or with the Esc key for modals. If an element must hold focus, such as an open modal, provide a clear, announced way out."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.1.2"
+      ],
+      "rgaa": [
+        "4.11",
+        "4.12",
+        "12.9"
+      ],
+      "qc": [
+        "2.1.2"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.1.3",
+    "name": "Keyboard (No Exception)",
+    "name_fr": "Clavier (sans exception)",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.1.3 Keyboard (No Exception)",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.1",
+    "guidelineName": "Keyboard Accessible",
+    "url": "https://www.w3.org/TR/WCAG22/#keyboard-no-exception",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard-no-exception.html",
+    "disability_tags": [
+      "motor",
+      "blind"
+    ],
+    "description": {
+      "fr": "Toutes les fonctionnalités doivent être utilisables au clavier, sans aucune exception, y compris celles qui dépendent normalement de la vitesse ou de la trajectoire d'un geste.",
+      "en": "All functionality must be operable by keyboard, with no exceptions, including functionality that normally depends on the speed or path of a gesture."
+    },
+    "plain": {
+      "fr": "Même exigence que l'accès clavier de base, poussée sans aucune exception : même les fonctions qui reposent d'habitude sur un geste précis à la souris doivent avoir un équivalent clavier.",
+      "en": "The same requirement as basic keyboard access, taken with no exceptions at all: even functions that usually rely on a precise mouse gesture must have a keyboard equivalent."
+    },
+    "remediation": {
+      "fr": "Recensez les fonctions qui dépendent encore d'un mouvement continu à la souris (dessin, glisser précis, tracé) et ajoutez-leur une commande clavier, même moins rapide. À ce niveau, aucune fonction n'est dispensée d'un accès clavier.",
+      "en": "List the functions that still depend on continuous mouse movement (drawing, precise dragging, tracing paths) and add a keyboard command for each, even a slower one. At this level, no function is excused from keyboard access."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.1.4",
+    "name": "Character Key Shortcuts",
+    "name_fr": "Raccourcis clavier utilisant un caractère",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.1.4 Character Key Shortcuts",
+    "level": "A",
+    "version": "2.1",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.1",
+    "guidelineName": "Keyboard Accessible",
+    "url": "https://www.w3.org/TR/WCAG22/#character-key-shortcuts",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html",
+    "disability_tags": [
+      "speech",
+      "motor",
+      "blind"
+    ],
+    "description": {
+      "fr": "Un raccourci clavier composé d'une seule touche de caractère doit pouvoir être désactivé, réassigné, ou limité au focus d'un composant précis, pour ne pas interférer avec la saisie de texte.",
+      "en": "A single-character keyboard shortcut must be able to be turned off, reassigned, or limited to the focus of a specific component, so it does not interfere with text input."
+    },
+    "plain": {
+      "fr": "Certains sites déclenchent une action dès qu'on tape une seule lettre, sans autre touche. Une personne qui dicte à la voix, ou dont les mains tremblent, envoie sans le vouloir des lettres qui déclenchent ces raccourcis au mauvais moment.",
+      "en": "Some sites fire an action the moment you press a single letter, with no other key held. Someone dictating by voice, or whose hands shake, sends stray letters that trigger those shortcuts at the wrong time."
+    },
+    "remediation": {
+      "fr": "Si vous proposez des raccourcis à une seule touche de caractère, donnez au moins un moyen de les couper ou de les redéfinir, ou limitez-les au moment où le composant concerné a le focus. Les raccourcis avec une touche de modification (Ctrl, Alt) ne sont pas visés.",
+      "en": "If you offer single-character shortcuts, provide at least a way to turn them off or remap them, or limit them to when the relevant component has focus. Shortcuts that use a modifier key (Ctrl, Alt) are not covered."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.1.4"
+      ],
+      "rgaa": [
+        "12.10"
+      ],
+      "qc": [
+        "2.1.4"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.2.1",
+    "name": "Timing Adjustable",
+    "name_fr": "Réglage du délai",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.2.1 Timing Adjustable",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.2",
+    "guidelineName": "Enough Time",
+    "url": "https://www.w3.org/TR/WCAG22/#timing-adjustable",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html",
+    "disability_tags": [
+      "cognitive",
+      "motor",
+      "low-vision",
+      "blind"
+    ],
+    "description": {
+      "fr": "Quand une limite de temps est imposée, la personne doit pouvoir la désactiver, l'ajuster ou la prolonger avant qu'elle n'expire, sauf exception justifiée.",
+      "en": "When a time limit is imposed, the person must be able to turn it off, adjust it, or extend it before it expires, except in justified cases."
+    },
+    "plain": {
+      "fr": "Lire, comprendre, remplir un formulaire : tout le monde ne va pas à la même vitesse. Une limite de temps qui expire sans prévenir peut faire perdre un achat ou un dossier à moitié rempli.",
+      "en": "Reading, understanding, filling in a form: not everyone goes at the same speed. A time limit that expires without warning can cost someone a purchase or a half-completed application."
+    },
+    "remediation": {
+      "fr": "Chaque fois que c'est possible, supprimez la limite de temps. Sinon, prévenez la personne avant l'expiration et laissez-la prolonger le délai d'un simple geste, au moins dix fois. Les exceptions, comme une enchère en direct ou un examen chronométré, doivent être justifiées.",
+      "en": "Wherever you can, remove the time limit. Otherwise, warn the person before it expires and let them extend it with a single action, at least ten times. Exceptions, such as a live auction or a timed exam, must be justified."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.2.1"
+      ],
+      "rgaa": [
+        "13.1",
+        "13.8"
+      ],
+      "qc": [
+        "2.2.1"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.2.2",
+    "name": "Pause, Stop, Hide",
+    "name_fr": "Mettre en pause, arrêter, masquer",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.2.2 Pause, Stop, Hide",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.2",
+    "guidelineName": "Enough Time",
+    "url": "https://www.w3.org/TR/WCAG22/#pause-stop-hide",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+    "disability_tags": [
+      "cognitive",
+      "low-vision",
+      "motor"
+    ],
+    "description": {
+      "fr": "Tout contenu qui bouge, clignote ou défile automatiquement pendant plus de cinq secondes doit pouvoir être mis en pause, arrêté ou masqué par la personne.",
+      "en": "Any content that moves, blinks, or scrolls automatically for more than five seconds must be pausable, stoppable, or hideable by the person."
+    },
+    "plain": {
+      "fr": "Un carrousel qui tourne, un texte qui défile, une animation en boucle : ce mouvement continu attire l'œil et empêche certaines personnes de lire le reste de la page ou de s'en servir. Il faut pouvoir l'arrêter.",
+      "en": "A rotating carousel, scrolling text, a looping animation: that constant motion pulls the eye and stops some people from reading or using the rest of the page. It has to be possible to stop it."
+    },
+    "remediation": {
+      "fr": "Pour tout élément qui bouge, clignote ou défile automatiquement plus de cinq secondes, ajoutez un bouton visible pour le mettre en pause ou le masquer. Mieux : ne lancez pas l'animation toute seule, ou coupez-la quand le système de la personne demande moins d'animations.",
+      "en": "For anything that moves, blinks, or scrolls automatically for more than five seconds, add a visible button to pause or hide it. Better still: don't start the animation on its own, or stop it when the person's system asks for reduced motion."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.2.2"
+      ],
+      "rgaa": [
+        "13.1",
+        "13.8"
+      ],
+      "qc": [
+        "2.2.2"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.2.3",
+    "name": "No Timing",
+    "name_fr": "Pas de délai d'exécution",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.2.3 No Timing",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.2",
+    "guidelineName": "Enough Time",
+    "url": "https://www.w3.org/TR/WCAG22/#no-timing",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/no-timing.html",
+    "disability_tags": [
+      "cognitive",
+      "motor"
+    ],
+    "description": {
+      "fr": "Une limite de temps ne devrait jamais être imposée pour interagir avec un contenu, sauf pour un événement en temps réel où c'est essentiel.",
+      "en": "A time limit should never be imposed to interact with content, except for a real-time event where it is essential."
+    },
+    "plain": {
+      "fr": "La version stricte de la règle sur les délais : en dehors des événements diffusés en direct, aucune limite de temps ne devrait peser sur la façon dont on lit ou dont on interagit avec un contenu.",
+      "en": "The strict version of the timing rule: apart from live, real-time events, no time limit should sit on how you read or interact with content."
+    },
+    "remediation": {
+      "fr": "Retirez les minuteries des parcours où le temps n'a pas de rôle réel : questionnaires, lecture, formulaires, étapes d'un achat. Ne gardez une contrainte de temps que si l'activité est par nature synchrone, comme une enchère ou un direct.",
+      "en": "Remove timers from flows where time plays no real part: quizzes, reading, forms, checkout steps. Keep a time constraint only where the activity is synchronous by nature, such as an auction or a live broadcast."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.2.4",
+    "name": "Interruptions",
+    "name_fr": "Interruptions",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.2.4 Interruptions",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.2",
+    "guidelineName": "Enough Time",
+    "url": "https://www.w3.org/TR/WCAG22/#interruptions",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/interruptions.html",
+    "disability_tags": [
+      "cognitive",
+      "blind",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Les interruptions non essentielles, comme les notifications, devraient pouvoir être reportées ou supprimées par la personne, sauf en cas d'urgence réelle.",
+      "en": "Non-essential interruptions, such as notifications, should be postponable or dismissible by the person, except in a genuine emergency."
+    },
+    "plain": {
+      "fr": "Des notifications ou des messages qui surgissent pendant qu'on lit ou qu'on remplit un formulaire coupent le fil de la pensée, et déplacent le focus d'un lecteur d'écran. Pour une personne qui se concentre difficilement, c'est le retour à la case départ.",
+      "en": "Notifications or messages that pop up while you're reading or filling in a form break your train of thought, and move a screen reader's focus. For someone who concentrates with difficulty, it's back to square one."
+    },
+    "remediation": {
+      "fr": "Laissez la personne reporter ou couper les interruptions non essentielles : mises à jour de contenu, bannières, invites d'avis. Réservez les messages qui s'imposent d'eux-mêmes aux urgences réelles, comme une alerte de sécurité.",
+      "en": "Let the person postpone or switch off non-essential interruptions: content updates, banners, review prompts. Keep messages that force themselves forward for real emergencies, such as a safety alert."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.2.5",
+    "name": "Re-authenticating",
+    "name_fr": "Ré-authentification",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.2.5 Re-authenticating",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.2",
+    "guidelineName": "Enough Time",
+    "url": "https://www.w3.org/TR/WCAG22/#re-authenticating",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/re-authenticating.html",
+    "disability_tags": [
+      "cognitive",
+      "motor"
+    ],
+    "description": {
+      "fr": "Quand une session expire, la personne doit pouvoir se réauthentifier et reprendre son activité sans perdre les données déjà saisies.",
+      "en": "When a session expires, the person must be able to re-authenticate and resume their activity without losing data already entered."
+    },
+    "plain": {
+      "fr": "Une session qui expire au milieu d'un long formulaire, et tout est perdu à la reconnexion. Pour quelqu'un qui saisit lentement, cela peut représenter une heure de travail effacée.",
+      "en": "A session expires in the middle of a long form, and everything is lost at re-login. For someone who types slowly, that can be an hour of work wiped out."
+    },
+    "remediation": {
+      "fr": "Quand une session expire, conservez les données déjà saisies et redonnez-les à la personne une fois reconnectée, ou permettez de se réauthentifier dans une fenêtre sans quitter la page. Ne renvoyez pas vers un formulaire vide.",
+      "en": "When a session expires, keep the data already entered and return it to the person once they log back in, or let them re-authenticate in a dialog without leaving the page. Don't send them back to an empty form."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.2.6",
+    "name": "Timeouts",
+    "name_fr": "Délais d'expiration",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.2.6 Timeouts",
+    "level": "AAA",
+    "version": "2.1",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.2",
+    "guidelineName": "Enough Time",
+    "url": "https://www.w3.org/TR/WCAG22/#timeouts",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/timeouts.html",
+    "disability_tags": [
+      "cognitive",
+      "motor"
+    ],
+    "description": {
+      "fr": "La personne doit être avertie à l'avance de toute limite d'inactivité susceptible d'entraîner une perte de données, avec suffisamment de temps pour réagir.",
+      "en": "The person must be warned in advance of any inactivity limit likely to cause data loss, with enough time to react."
+    },
+    "plain": {
+      "fr": "Si une page peut vous déconnecter après un moment d'inactivité et faire disparaître ce que vous avez saisi, vous devez le savoir d'avance. Sans avertissement, on découvre la perte trop tard.",
+      "en": "If a page can log you out after a spell of inactivity and discard what you've entered, you need to know that up front. With no warning, you find out about the loss too late."
+    },
+    "remediation": {
+      "fr": "Annoncez la durée d'inactivité admise au début de l'activité, ou avertissez la personne assez tôt pour réagir. À défaut, gardez les données saisies au moins vingt heures pour qu'une pause ne les efface pas.",
+      "en": "State the inactivity limit at the start of the activity, or warn the person early enough to react. Failing that, keep entered data for at least twenty hours so a break doesn't erase it."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.3.1",
+    "name": "Three Flashes or Below Threshold",
+    "name_fr": "Pas plus de trois flashs ou sous le seuil critique",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.3.1 Three Flashes or Below Threshold",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.3",
+    "guidelineName": "Seizures and Physical Reactions",
+    "url": "https://www.w3.org/TR/WCAG22/#three-flashes-or-below-threshold",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html",
+    "disability_tags": [
+      "photosensitive"
+    ],
+    "description": {
+      "fr": "Aucun contenu ne doit clignoter plus de trois fois par seconde, au risque de déclencher des crises chez les personnes photosensibles.",
+      "en": "No content should flash more than three times per second, as it risks triggering seizures in photosensitive people."
+    },
+    "plain": {
+      "fr": "Un contenu qui clignote plusieurs fois par seconde peut déclencher une crise d'épilepsie chez les personnes photosensibles. Rien sur une page ne doit clignoter plus de trois fois en une seconde.",
+      "en": "Content that flashes several times a second can trigger a seizure in photosensitive people. Nothing on a page should flash more than three times in one second."
+    },
+    "remediation": {
+      "fr": "Bannissez tout clignotement rapide : animations, vidéos, GIF, publicités. Si un effet lumineux est indispensable, gardez-le sous trois flashs par seconde et sur une petite surface, et évitez les rouges saturés. Dans le doute, testez la séquence avec un analyseur de photosensibilité.",
+      "en": "Rule out any rapid flashing: animations, videos, GIFs, ads. If a light effect is unavoidable, keep it under three flashes per second and over a small area, and avoid saturated reds. When in doubt, test the sequence with a photosensitivity analyser."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.3.1"
+      ],
+      "rgaa": [
+        "13.7"
+      ],
+      "qc": [
+        "2.3.1"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.3.2",
+    "name": "Three Flashes",
+    "name_fr": "Pas plus de trois flashs",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.3.2 Three Flashes",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.3",
+    "guidelineName": "Seizures and Physical Reactions",
+    "url": "https://www.w3.org/TR/WCAG22/#three-flashes",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes.html",
+    "disability_tags": [
+      "photosensitive"
+    ],
+    "description": {
+      "fr": "Aucun contenu ne doit clignoter plus de trois fois par seconde, sans aucune exception ni seuil de tolérance.",
+      "en": "No content should flash more than three times per second, with no exception or tolerance threshold whatsoever."
+    },
+    "plain": {
+      "fr": "La version sans compromis de la règle sur les flashs : pas plus de trois flashs par seconde, quelle que soit la taille de la zone ou l'intensité. On ne s'appuie plus sur un seuil de tolérance.",
+      "en": "The no-compromise version of the flash rule: no more than three flashes per second, whatever the size of the area or the intensity. There's no tolerance threshold to lean on any more."
+    },
+    "remediation": {
+      "fr": "Faites en sorte qu'aucun contenu du site ne dépasse trois flashs par seconde, sans tenir compte de la surface concernée. En pratique, cela revient à écarter tout effet stroboscopique.",
+      "en": "Make sure no content on the site goes above three flashes per second, regardless of how much area is involved. In practice this means dropping any strobe effect."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": [
+        "2.3.2"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.3.3",
+    "name": "Animation from Interactions",
+    "name_fr": "Animation à partir d'interactions",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.3.3 Animation from Interactions",
+    "level": "AAA",
+    "version": "2.1",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.3",
+    "guidelineName": "Seizures and Physical Reactions",
+    "url": "https://www.w3.org/TR/WCAG22/#animation-from-interactions",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+    "disability_tags": [
+      "vestibular",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Les animations déclenchées par une interaction, comme le défilement ou un clic, doivent pouvoir être désactivées, sauf si elles sont essentielles à la fonctionnalité.",
+      "en": "Animations triggered by an interaction, such as scrolling or a click, must be able to be turned off, unless they are essential to the functionality."
+    },
+    "plain": {
+      "fr": "Des animations déclenchées par le défilement ou un clic (parallaxe, éléments qui glissent ou zooment) peuvent donner la nausée ou le vertige aux personnes sujettes au mal des transports numérique. Elles doivent pouvoir être coupées.",
+      "en": "Animations set off by scrolling or clicking (parallax, elements that slide or zoom in) can cause nausea or dizziness in people prone to digital motion sickness. It must be possible to switch them off."
+    },
+    "remediation": {
+      "fr": "Respectez le réglage « animations réduites » du système : quand il est actif, supprimez les effets de mouvement déclenchés par l'interaction ou remplacez-les par un simple fondu. Sinon, offrez un réglage équivalent sur le site.",
+      "en": "Honour the system's reduced-motion setting: when it's on, remove interaction-triggered motion effects or replace them with a plain fade. Otherwise, offer an equivalent setting on the site."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.4.1",
+    "name": "Bypass Blocks",
+    "name_fr": "Contourner des blocs",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.4.1 Bypass Blocks",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.4",
+    "guidelineName": "Navigable",
+    "url": "https://www.w3.org/TR/WCAG22/#bypass-blocks",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html",
+    "disability_tags": [
+      "blind",
+      "motor",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Un mécanisme doit permettre de contourner les blocs de contenu répétés sur plusieurs pages, comme le menu ou l'en-tête, pour accéder directement au contenu principal.",
+      "en": "A mechanism must allow users to bypass blocks of content that repeat across pages, such as the menu or header, to reach the main content directly."
+    },
+    "plain": {
+      "fr": "Le menu, l'en-tête et les mêmes liens se répètent en haut de chaque page. Une personne au lecteur d'écran ou au clavier doit sinon les traverser un par un à chaque fois avant d'arriver au contenu. Un raccourci lui évite cette corvée.",
+      "en": "The menu, the header, and the same links repeat at the top of every page. Otherwise, someone using a screen reader or the keyboard has to move through them one by one every time before reaching the content. A shortcut spares them that."
+    },
+    "remediation": {
+      "fr": "Ajoutez en tout début de page un lien « Aller au contenu » qui envoie le focus sur la zone principale. Structurez aussi la page avec des régions repères (en-tête, navigation, contenu principal, pied de page) pour que les aides techniques offrent leurs propres sauts.",
+      "en": "Add a \"Skip to content\" link as the very first item on the page, sending focus to the main area. Also structure the page with landmark regions (header, navigation, main content, footer) so assistive technology can offer its own jumps."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.4.1"
+      ],
+      "rgaa": [
+        "9.1",
+        "12.6",
+        "12.7",
+        "13.3",
+        "13.4"
+      ],
+      "qc": [
+        "2.4.1"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.4.2",
+    "name": "Page Titled",
+    "name_fr": "Titre de page",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.4.2 Page Titled",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.4",
+    "guidelineName": "Navigable",
+    "url": "https://www.w3.org/TR/WCAG22/#page-titled",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/page-titled.html",
+    "disability_tags": [
+      "blind",
+      "cognitive",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Chaque page doit avoir un titre décrivant son contenu ou son objectif, affiché notamment dans l'onglet du navigateur.",
+      "en": "Every page must have a title describing its content or purpose, displayed notably in the browser tab."
+    },
+    "plain": {
+      "fr": "Le titre de la page est ce qui s'affiche dans l'onglet du navigateur, dans les favoris et dans l'historique. C'est aussi la première chose qu'un lecteur d'écran annonce en arrivant. S'il est vide ou identique partout, on ne sait plus quelle page on regarde.",
+      "en": "The page title is what shows in the browser tab, in bookmarks, and in history. It's also the first thing a screen reader announces on arrival. If it's empty or the same everywhere, you can't tell which page you're on."
+    },
+    "remediation": {
+      "fr": "Donnez à chaque page un titre unique qui décrit son contenu, en plaçant l'information la plus précise en premier : « Nous joindre | Vesper Lab » plutôt que « Vesper Lab | Nous joindre ».",
+      "en": "Give each page a unique title that describes its content, with the most specific part first: \"Contact us | Vesper Lab\" rather than \"Vesper Lab | Contact us\"."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.4.2"
+      ],
+      "rgaa": [
+        "8.5",
+        "8.6"
+      ],
+      "qc": [
+        "2.4.2"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.4.3",
+    "name": "Focus Order",
+    "name_fr": "Parcours du focus",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.4.3 Focus Order",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.4",
+    "guidelineName": "Navigable",
+    "url": "https://www.w3.org/TR/WCAG22/#focus-order",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html",
+    "disability_tags": [
+      "blind",
+      "motor",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "L'ordre dans lequel le focus se déplace au clavier doit suivre une séquence logique et cohérente avec l'ordre visuel et la compréhension du contenu.",
+      "en": "The order in which focus moves via keyboard must follow a sequence that is logical and consistent with the visual order and the meaning of the content."
+    },
+    "plain": {
+      "fr": "Quand on parcourt une page avec la touche de tabulation, le focus passe d'un élément à l'autre dans un certain ordre. Cet ordre doit suivre la lecture normale de la page. S'il saute au hasard, remplir un formulaire ou suivre un fil devient impossible.",
+      "en": "When you move through a page with the Tab key, focus goes from one element to the next in a set order. That order has to follow the normal reading of the page. If it jumps around, filling in a form or following a thread becomes impossible."
+    },
+    "remediation": {
+      "fr": "Faites correspondre l'ordre du focus à l'ordre visuel et logique du contenu. Le plus simple est de placer les éléments dans le code dans le bon ordre et d'éviter les valeurs de `tabindex` supérieures à zéro, qui forcent un parcours artificiel.",
+      "en": "Match the focus order to the visual and logical order of the content. The simplest way is to place elements in the code in the right order and avoid `tabindex` values above zero, which force an artificial path."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.4.3"
+      ],
+      "rgaa": [
+        "10.3",
+        "12.7",
+        "12.8",
+        "13.3",
+        "13.4"
+      ],
+      "qc": [
+        "2.4.3"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.4.4",
+    "name": "Link Purpose (In Context)",
+    "name_fr": "Fonction du lien (selon le contexte)",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.4.4 Link Purpose (In Context)",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.4",
+    "guidelineName": "Navigable",
+    "url": "https://www.w3.org/TR/WCAG22/#link-purpose-in-context",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html",
+    "disability_tags": [
+      "blind",
+      "low-vision",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "La destination ou la fonction d'un lien doit être compréhensible à partir de son texte seul ou de son contexte immédiat, sans ambiguïté.",
+      "en": "The destination or purpose of a link must be understandable from its text alone or its immediate context, without ambiguity."
+    },
+    "plain": {
+      "fr": "Un lecteur d'écran peut lister tous les liens d'une page hors de leur phrase. « En savoir plus » répété dix fois ne dit alors rien de sa destination. Le texte du lien, ou au moins la phrase qui l'entoure, doit indiquer où il mène.",
+      "en": "A screen reader can list every link on a page out of its sentence. \"Read more\" repeated ten times then says nothing about where it goes. The link text, or at least the sentence around it, has to make the destination clear."
+    },
+    "remediation": {
+      "fr": "Rédigez des intitulés de lien qui décrivent la cible : « Lire le rapport 2026 » plutôt que « Cliquez ici ». Si le contexte immédiat (la phrase, l'élément de liste, la cellule du tableau) suffit à lever l'ambiguïté, c'est accepté à ce niveau.",
+      "en": "Write link text that describes the target: \"Read the 2026 report\" rather than \"Click here\". If the immediate context (the sentence, the list item, the table cell) is enough to remove the ambiguity, that passes at this level."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.4.4"
+      ],
+      "rgaa": [
+        "6.1",
+        "6.2"
+      ],
+      "qc": [
+        "2.4.4"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.4.5",
+    "name": "Multiple Ways",
+    "name_fr": "Accès multiples",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.4.5 Multiple Ways",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.4",
+    "guidelineName": "Navigable",
+    "url": "https://www.w3.org/TR/WCAG22/#multiple-ways",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways.html",
+    "disability_tags": [
+      "cognitive",
+      "blind",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Il doit exister plus d'une façon d'atteindre une page donnée au sein d'un site, comme un menu, une recherche ou un plan du site, sauf si la page fait partie d'un processus séquentiel.",
+      "en": "There must be more than one way to reach a given page within a site, such as a menu, a search feature, or a sitemap, unless the page is part of a sequential process."
+    },
+    "plain": {
+      "fr": "Les gens ne cherchent pas tous de la même façon : certains suivent le menu, d'autres tapent dans une recherche, d'autres balaient un plan du site. Offrir au moins deux chemins vers chaque page évite d'en bloquer une partie.",
+      "en": "People don't all search the same way: some follow the menu, some type in a search box, some scan a sitemap. Offering at least two paths to each page keeps some of them from getting stuck."
+    },
+    "remediation": {
+      "fr": "Proposez au moins deux moyens d'atteindre les pages du site : un menu et une recherche, ou un menu et un plan du site. Les pages qui font partie d'un tunnel (paiement, formulaire en étapes) sont dispensées.",
+      "en": "Provide at least two ways to reach the site's pages: a menu and a search feature, or a menu and a sitemap. Pages that are part of a flow (checkout, a multi-step form) are exempt."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.4.5"
+      ],
+      "rgaa": [
+        "12.1",
+        "12.3",
+        "12.4"
+      ],
+      "qc": [
+        "2.4.5"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.4.6",
+    "name": "Headings and Labels",
+    "name_fr": "En-têtes et étiquettes",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.4.6 Headings and Labels",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.4",
+    "guidelineName": "Navigable",
+    "url": "https://www.w3.org/TR/WCAG22/#headings-and-labels",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html",
+    "disability_tags": [
+      "blind",
+      "cognitive",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Les titres et les étiquettes de champ doivent décrire clairement leur sujet ou leur objectif, pour faciliter la compréhension et la navigation.",
+      "en": "Headings and field labels must clearly describe their topic or purpose, to make understanding and navigation easier."
+    },
+    "plain": {
+      "fr": "Un titre de section annonce ce qui suit ; une étiquette de champ dit ce qu'on attend dans la case. Vagues (« Info », « Champ 1 »), ils forcent à deviner. Précis, ils permettent de parcourir la page et de remplir un formulaire sans hésiter.",
+      "en": "A section heading announces what comes next; a field label says what belongs in the box. Vague ones (\"Info\", \"Field 1\") force guesswork. Precise ones let people scan the page and fill in a form without hesitation."
+    },
+    "remediation": {
+      "fr": "Écrivez des titres qui résument leur section et des étiquettes qui nomment la donnée demandée (« Adresse courriel », pas « Champ »). Ils n'ont pas à être longs, seulement à être justes.",
+      "en": "Write headings that sum up their section and labels that name the data being asked for (\"Email address\", not \"Field\"). They don't have to be long, only accurate."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.4.6"
+      ],
+      "rgaa": [
+        "9.1",
+        "11.1",
+        "11.2"
+      ],
+      "qc": [
+        "2.4.6"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.4.7",
+    "name": "Focus Visible",
+    "name_fr": "Visibilité du focus",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.4.7 Focus Visible",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.4",
+    "guidelineName": "Navigable",
+    "url": "https://www.w3.org/TR/WCAG22/#focus-visible",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html",
+    "disability_tags": [
+      "motor",
+      "low-vision",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Quand on navigue au clavier, il doit toujours être visible où se trouve le focus à l'écran, sous peine de perdre complètement ses repères.",
+      "en": "When navigating by keyboard, it must always be visible where the focus is on screen, or people completely lose their bearings."
+    },
+    "plain": {
+      "fr": "Une personne qui navigue au clavier a besoin de voir en permanence sur quel élément elle se trouve, en général grâce à un contour ou un surlignage. Sans cet indice, elle avance à l'aveugle et ne sait plus ce qu'un appui sur Entrée va déclencher.",
+      "en": "Someone navigating by keyboard needs to see at all times which element they're on, usually through an outline or a highlight. Without that cue, they move blind and can't tell what pressing Enter will do."
+    },
+    "remediation": {
+      "fr": "Ne supprimez jamais le contour de focus du navigateur sans le remplacer. Fournissez un indicateur net sur chaque élément interactif, visible sur tous les fonds de la page. Un simple `:focus-visible` bien contrasté suffit souvent.",
+      "en": "Never remove the browser's focus outline without replacing it. Provide a clear indicator on every interactive element, visible against every background on the page. A well-contrasted `:focus-visible` style often does the job."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.4.7"
+      ],
+      "rgaa": [
+        "7.3",
+        "10.7"
+      ],
+      "qc": [
+        "2.4.7"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.4.8",
+    "name": "Location",
+    "name_fr": "Emplacement",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.4.8 Location",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.4",
+    "guidelineName": "Navigable",
+    "url": "https://www.w3.org/TR/WCAG22/#location",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/location.html",
+    "disability_tags": [
+      "cognitive",
+      "blind",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "La personne doit pouvoir savoir où elle se trouve dans la structure globale du site, par exemple via un fil d'ariane ou une indication de section active dans le menu.",
+      "en": "The person must be able to know where they are within the site's overall structure, for example through a breadcrumb trail or an indication of the active section in the menu."
+    },
+    "plain": {
+      "fr": "Sur un grand site, il est facile de ne plus savoir dans quelle rubrique on se trouve. Un fil d'Ariane ou une rubrique mise en évidence dans le menu redonne ce repère, surtout à quelqu'un qui arrive par un lien direct.",
+      "en": "On a large site, it's easy to lose track of which section you're in. A breadcrumb trail, or the current section highlighted in the menu, restores that sense of place, especially for someone who arrives from a direct link."
+    },
+    "remediation": {
+      "fr": "Montrez la position de la page dans l'arborescence : fil d'Ariane, état actif dans le menu, ou titre de rubrique visible. Plusieurs de ces repères peuvent coexister.",
+      "en": "Show where the page sits in the structure: a breadcrumb, an active state in the menu, or a visible section heading. Several of these cues can coexist."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.4.9",
+    "name": "Link Purpose (Link Only)",
+    "name_fr": "Fonction du lien (lien uniquement)",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.4.9 Link Purpose (Link Only)",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.4",
+    "guidelineName": "Navigable",
+    "url": "https://www.w3.org/TR/WCAG22/#link-purpose-link-only",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-link-only.html",
+    "disability_tags": [
+      "blind",
+      "cognitive",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "La destination d'un lien doit être compréhensible à partir de son seul texte, sans avoir besoin de lire le contexte environnant.",
+      "en": "A link's destination must be understandable from its text alone, without needing to read the surrounding context."
+    },
+    "plain": {
+      "fr": "Version stricte de la règle sur les liens : le texte du lien doit se suffire à lui-même, sans qu'on ait à lire la phrase autour. C'est ce que perçoit quelqu'un qui parcourt une liste de liens au lecteur d'écran.",
+      "en": "The strict version of the link rule: the link text has to stand on its own, with no need to read the surrounding sentence. That's what someone gets when they scan a list of links with a screen reader."
+    },
+    "remediation": {
+      "fr": "Rendez chaque intitulé de lien explicite à lui seul. Si l'espace visible est limité, complétez le texte affiché par un libellé accessible plus long, sans jamais laisser un lien dont le seul texte est « ici » ou « en savoir plus ».",
+      "en": "Make every link text meaningful on its own. If visible space is tight, extend the shown text with a longer accessible label, and never leave a link whose only text is \"here\" or \"read more\"."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.4.10",
+    "name": "Section Headings",
+    "name_fr": "En-têtes de section",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.4.10 Section Headings",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.4",
+    "guidelineName": "Navigable",
+    "url": "https://www.w3.org/TR/WCAG22/#section-headings",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/section-headings.html",
+    "disability_tags": [
+      "blind",
+      "cognitive",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Le contenu doit être organisé avec des titres de section, pour faciliter la navigation et la compréhension de la structure globale.",
+      "en": "Content must be organized with section headings, to make navigation and understanding of the overall structure easier."
+    },
+    "plain": {
+      "fr": "Un texte long sans aucun titre intermédiaire forme un mur difficile à parcourir. Des titres de section réguliers donnent des points d'accroche pour repérer une partie, sauter à la bonne, ou reprendre où on s'était arrêté.",
+      "en": "A long text with no headings in between forms a wall that's hard to scan. Regular section headings give anchor points to spot a part, jump to the right one, or pick up where you left off."
+    },
+    "remediation": {
+      "fr": "Découpez les contenus longs avec des titres de section balisés correctement et hiérarchisés (un seul niveau 1, puis des niveaux 2 et 3 imbriqués sans saut). Ils servent autant à la lecture visuelle qu'à la navigation par titres au lecteur d'écran.",
+      "en": "Break long content into properly marked-up, ranked section headings (one level 1, then nested level 2s and 3s with no skipped level). They serve both visual scanning and heading-based navigation with a screen reader."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.4.11",
+    "name": "Focus Not Obscured (Minimum)",
+    "name_fr": "Focus non masqué (minimum)",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.4.11 Focus Not Obscured (Minimum)",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.4",
+    "guidelineName": "Navigable",
+    "url": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html",
+    "disability_tags": [
+      "motor",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Quand un élément reçoit le focus clavier, il ne doit pas être totalement masqué par un autre contenu, comme un bandeau ou une fenêtre superposée.",
+      "en": "When an element receives keyboard focus, it must not be entirely hidden by other content, such as a banner or an overlapping window."
+    },
+    "plain": {
+      "fr": "Quand on tabule jusqu'à un bouton ou un champ, il peut se retrouver caché derrière un bandeau de témoins, un en-tête collant ou une fenêtre. On ne voit plus ce qu'on manipule. À ce niveau, l'élément ne doit pas être entièrement recouvert.",
+      "en": "When you tab to a button or a field, it can end up hidden behind a cookie banner, a sticky header, or a dialog. You can no longer see what you're operating. At this level, the element must not be entirely covered."
+    },
+    "remediation": {
+      "fr": "Vérifiez qu'aucun élément fixe (en-tête collant, bandeau, bouton d'aide) ne masque complètement un élément qui vient de recevoir le focus. Prévoyez une marge de défilement pour que le focus reste dans la partie visible.",
+      "en": "Check that no fixed element (sticky header, banner, help button) fully covers an element that has just received focus. Add a scroll margin so the focused element stays within the visible area."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.4.11"
+      ],
+      "rgaa": [],
+      "qc": [
+        "2.4.11"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.4.12",
+    "name": "Focus Not Obscured (Enhanced)",
+    "name_fr": "Focus non masqué (amélioré)",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.4.12 Focus Not Obscured (Enhanced)",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.4",
+    "guidelineName": "Navigable",
+    "url": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-enhanced",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced.html",
+    "disability_tags": [
+      "motor",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Quand un élément reçoit le focus clavier, il ne doit être masqué par aucun autre contenu, même partiellement.",
+      "en": "When an element receives keyboard focus, it must not be hidden by any other content, even partially."
+    },
+    "plain": {
+      "fr": "Même exigence que la version minimale, mais sans aucun recouvrement, pas même partiel. L'élément qui a le focus doit être visible en entier.",
+      "en": "The same requirement as the minimum version, but with no overlap at all, not even partial. The element that has focus must be fully visible."
+    },
+    "remediation": {
+      "fr": "Faites en sorte qu'aucun contenu superposé ne cache, même en partie, un élément au focus. En pratique, cela pousse à limiter les en-têtes et bandeaux collants, ou à décaler la zone de défilement en conséquence.",
+      "en": "Ensure no overlapping content hides any part of a focused element. In practice, this pushes you to limit sticky headers and banners, or to offset the scroll area accordingly."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.4.13",
+    "name": "Focus Appearance",
+    "name_fr": "Apparence du focus",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.4.13 Focus Appearance",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.4",
+    "guidelineName": "Navigable",
+    "url": "https://www.w3.org/TR/WCAG22/#focus-appearance",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html",
+    "disability_tags": [
+      "low-vision",
+      "motor",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "L'indicateur visuel de focus doit respecter une taille et un contraste minimums, pour rester clairement identifiable.",
+      "en": "The visual focus indicator must meet a minimum size and contrast, to remain clearly identifiable."
+    },
+    "plain": {
+      "fr": "Un contour de focus d'un pixel, gris pâle sur fond blanc, existe sans se voir. Pour être utile, l'indicateur doit être assez grand et assez contrasté pour sauter aux yeux.",
+      "en": "A one-pixel focus outline, pale grey on white, exists without being seen. To be useful, the indicator has to be large enough and contrasted enough to catch the eye."
+    },
+    "remediation": {
+      "fr": "Donnez à l'indicateur de focus une surface d'au moins l'équivalent d'un contour de 2 pixels tout autour de l'élément, et un contraste d'au moins 3:1 avec les couleurs qu'il recouvre à l'état non focalisé.",
+      "en": "Give the focus indicator an area of at least the equivalent of a 2-pixel outline around the element, and a contrast of at least 3:1 against the colours it replaces in the unfocused state."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": [
+        "2.4.13"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.5.1",
+    "name": "Pointer Gestures",
+    "name_fr": "Gestes pour le contrôle du pointeur",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.5.1 Pointer Gestures",
+    "level": "A",
+    "version": "2.2",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.5",
+    "guidelineName": "Input Modalities",
+    "url": "https://www.w3.org/TR/WCAG22/#pointer-gestures",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures.html",
+    "disability_tags": [
+      "motor",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Une fonctionnalité qui repose sur un geste complexe, comme un glissement à deux doigts ou un tracé, doit aussi être utilisable avec un geste simple ou un clic unique.",
+      "en": "A feature that relies on a complex gesture, such as a two-finger swipe or a drawn path, must also be usable with a simple gesture or a single click."
+    },
+    "plain": {
+      "fr": "Faire pivoter une vue à deux doigts, tracer une signature : ces gestes sont impossibles pour beaucoup de personnes à mobilité réduite, ou avec un dispositif de pointage unique. Chaque geste complexe doit avoir un équivalent simple.",
+      "en": "Rotating a view with two fingers, drawing a signature: these gestures are out of reach for many people with limited mobility, or using a single pointing device. Every complex gesture needs a simple equivalent."
+    },
+    "remediation": {
+      "fr": "Pour toute fonction qui repose sur un tracé ou un geste à plusieurs doigts, ajoutez une commande utilisable d'un seul clic ou d'un seul appui : des boutons + et − à côté d'une carte, des flèches à côté d'un carrousel.",
+      "en": "For any feature that relies on a path or a multi-finger gesture, add a control usable with a single click or tap: + and − buttons next to a map, arrows next to a carousel."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.5.1"
+      ],
+      "rgaa": [
+        "13.10"
+      ],
+      "qc": [
+        "2.5.1"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.5.2",
+    "name": "Pointer Cancellation",
+    "name_fr": "Annulation de l'action du pointeur",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.5.2 Pointer Cancellation",
+    "level": "A",
+    "version": "2.2",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.5",
+    "guidelineName": "Input Modalities",
+    "url": "https://www.w3.org/TR/WCAG22/#pointer-cancellation",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html",
+    "disability_tags": [
+      "motor",
+      "blind",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Une action déclenchée par un pointeur doit pouvoir être annulée en déplaçant le pointeur avant de relâcher, plutôt que de se déclencher dès l'appui initial.",
+      "en": "An action triggered by a pointer must be cancellable by moving the pointer away before releasing, rather than triggering as soon as it is pressed."
+    },
+    "plain": {
+      "fr": "Sur un écran tactile, on pose parfois le doigt au mauvais endroit. Si l'action se déclenche dès le contact, l'erreur est irréversible. Elle devrait se déclencher au relâchement, en laissant le temps de glisser hors de la cible pour annuler.",
+      "en": "On a touch screen, you sometimes land your finger in the wrong spot. If the action fires on contact, the mistake can't be undone. It should fire on release, leaving time to slide off the target to cancel."
+    },
+    "remediation": {
+      "fr": "Déclenchez les actions au relâchement du pointeur (`click` ou `pointerup`), pas à l'appui (`pointerdown`). Laissez la possibilité d'annuler en éloignant le pointeur avant de relâcher. Les exceptions concernent les actions comme un clavier à l'écran, où chaque touche doit répondre à l'appui.",
+      "en": "Trigger actions on pointer release (`click` or `pointerup`), not on press (`pointerdown`). Allow cancelling by moving the pointer away before releasing. Exceptions cover things like an on-screen keyboard, where each key must respond on press."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.5.2"
+      ],
+      "rgaa": [
+        "13.11"
+      ],
+      "qc": [
+        "2.5.2"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.5.3",
+    "name": "Label in Name",
+    "name_fr": "Étiquette dans le nom",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.5.3 Label in Name",
+    "level": "A",
+    "version": "2.2",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.5",
+    "guidelineName": "Input Modalities",
+    "url": "https://www.w3.org/TR/WCAG22/#label-in-name",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html",
+    "disability_tags": [
+      "speech",
+      "blind",
+      "motor"
+    ],
+    "description": {
+      "fr": "Le nom accessible d'un élément interactif, utilisé par les technologies d'assistance, doit contenir le texte visible affiché à l'écran.",
+      "en": "The accessible name of an interactive element, used by assistive technologies, must contain the visible text displayed on screen."
+    },
+    "plain": {
+      "fr": "Une personne qui commande sa navigation à la voix dit « clique sur Rechercher » en lisant le mot affiché sur le bouton. Si le nom que connaît le logiciel est « submit-btn-02 », la commande échoue. Le nom programmatique doit contenir le texte visible.",
+      "en": "Someone controlling their browsing by voice says \"click Search\", reading the word shown on the button. If the name the software knows is \"submit-btn-02\", the command fails. The programmatic name must contain the visible text."
+    },
+    "remediation": {
+      "fr": "Faites en sorte que le nom accessible d'un contrôle reprenne, au minimum, le texte visible affiché dessus. Quand vous ajoutez un `aria-label`, commencez-le par le libellé visible, sinon la commande vocale ne fonctionne plus.",
+      "en": "Make sure a control's accessible name includes, at minimum, the visible text shown on it. When you add an `aria-label`, start it with the visible label, or voice control stops working."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.5.3"
+      ],
+      "rgaa": [
+        "6.1",
+        "7.1",
+        "11.2",
+        "11.9"
+      ],
+      "qc": [
+        "2.5.3"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.5.4",
+    "name": "Motion Actuation",
+    "name_fr": "Activation par le mouvement",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.5.4 Motion Actuation",
+    "level": "A",
+    "version": "2.1",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.5",
+    "guidelineName": "Input Modalities",
+    "url": "https://www.w3.org/TR/WCAG22/#motion-actuation",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html",
+    "disability_tags": [
+      "motor"
+    ],
+    "description": {
+      "fr": "Une fonctionnalité déclenchée par un mouvement de l'appareil, comme secouer ou incliner, doit aussi être utilisable via une commande d'interface classique, et pouvoir être désactivée.",
+      "en": "A feature triggered by moving the device, such as shaking or tilting, must also be usable through a standard interface control, and must be able to be turned off."
+    },
+    "plain": {
+      "fr": "Certaines fonctions se déclenchent en secouant ou en inclinant l'appareil. Une personne qui tient son téléphone sur un support, ou dont les mains bougent involontairement, ne peut ni faire ce geste ni éviter de le faire par accident.",
+      "en": "Some features trigger by shaking or tilting the device. Someone who holds their phone on a mount, or whose hands move involuntarily, can neither perform that gesture nor avoid doing it by accident."
+    },
+    "remediation": {
+      "fr": "Pour toute action déclenchée par un mouvement de l'appareil, offrez un bouton ou une commande d'interface qui fait la même chose. Ajoutez aussi un réglage pour couper la détection de mouvement.",
+      "en": "For any action triggered by device movement, offer a button or interface control that does the same thing. Also add a setting to turn motion detection off."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.5.4"
+      ],
+      "rgaa": [
+        "13.12"
+      ],
+      "qc": [
+        "2.5.4"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.5.5",
+    "name": "Target Size (Enhanced)",
+    "name_fr": "Taille de la cible (amélioré)",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.5.5 Target Size (Enhanced)",
+    "level": "AAA",
+    "version": "2.1",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.5",
+    "guidelineName": "Input Modalities",
+    "url": "https://www.w3.org/TR/WCAG22/#target-size",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/target-size.html",
+    "disability_tags": [
+      "motor",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Les cibles tactiles ou cliquables doivent avoir une taille minimale confortable, soit 44 par 44 pixels, sauf exceptions justifiées.",
+      "en": "Touch or clickable targets must have a comfortable minimum size, 44 by 44 pixels, except in justified cases."
+    },
+    "plain": {
+      "fr": "Une petite icône collée à ses voisines est difficile à viser pour une personne dont le geste manque de précision, sur écran tactile surtout. Une cible d'au moins 44 pixels de côté laisse une marge d'erreur confortable.",
+      "en": "A small icon jammed against its neighbours is hard to hit for someone whose aim lacks precision, on touch screens especially. A target at least 44 pixels on each side leaves a comfortable margin for error."
+    },
+    "remediation": {
+      "fr": "Dimensionnez les cibles tactiles et cliquables à au moins 44 par 44 pixels, ou espacez-les suffisamment pour offrir la même tolérance. Les liens au fil du texte et les cibles imposées par le navigateur sont dispensés.",
+      "en": "Size touch and click targets to at least 44 by 44 pixels, or space them enough to give the same tolerance. Links within running text and targets fixed by the browser are exempt."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.5.6",
+    "name": "Concurrent Input Mechanisms",
+    "name_fr": "Mécanismes d'entrée concurrents",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.5.6 Concurrent Input Mechanisms",
+    "level": "AAA",
+    "version": "2.1",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.5",
+    "guidelineName": "Input Modalities",
+    "url": "https://www.w3.org/TR/WCAG22/#concurrent-input-mechanisms",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/concurrent-input-mechanisms.html",
+    "disability_tags": [
+      "motor",
+      "speech"
+    ],
+    "description": {
+      "fr": "Une interface ne devrait pas restreindre l'usage à une seule méthode de saisie, comme le clavier, la souris, le tactile ou la voix, mais permettre de les utiliser simultanément selon les besoins.",
+      "en": "An interface should not restrict use to a single input method, such as keyboard, mouse, touch, or voice, but should allow them to be used simultaneously as needed."
+    },
+    "plain": {
+      "fr": "Une même personne peut passer du tactile au clavier puis à la voix au cours d'une session, selon la fatigue ou la tâche. L'interface ne doit pas verrouiller une seule méthode ni désactiver les autres quand elle en détecte une.",
+      "en": "One person may switch between touch, keyboard, and voice during a single session, depending on fatigue or the task. The interface must not lock to one method or disable the others when it detects one."
+    },
+    "remediation": {
+      "fr": "Ne coupez jamais une méthode de saisie parce qu'une autre vient d'être utilisée. Concevez les composants pour répondre au clavier, à la souris, au tactile et à la saisie vocale en même temps.",
+      "en": "Never cut off one input method because another was just used. Build components to respond to keyboard, mouse, touch, and voice input at the same time."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": [
+        "2.5.6"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.5.7",
+    "name": "Dragging Movements",
+    "name_fr": "Mouvements de glissement",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.5.7 Dragging Movements",
+    "level": "AA",
+    "version": "2.2",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.5",
+    "guidelineName": "Input Modalities",
+    "url": "https://www.w3.org/TR/WCAG22/#dragging-movements",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html",
+    "disability_tags": [
+      "motor",
+      "blind"
+    ],
+    "description": {
+      "fr": "Une fonctionnalité qui repose sur un glissement doit aussi être réalisable par une action simple, comme une série de clics.",
+      "en": "A feature that relies on dragging must also be achievable through a simple action, such as a series of clicks."
+    },
+    "plain": {
+      "fr": "Réorganiser une liste ou déplacer une carte par glisser-déposer demande de maintenir l'appui tout en visant un mouvement continu. C'est hors de portée pour beaucoup de personnes à mobilité réduite ou au lecteur d'écran.",
+      "en": "Reordering a list or moving a card by drag-and-drop means holding the press while aiming a continuous movement. That's out of reach for many people with limited mobility or using a screen reader."
+    },
+    "remediation": {
+      "fr": "Pour toute action de glissement, ajoutez une alternative sans glisser : des boutons « monter » et « descendre », un menu « déplacer vers », ou une sélection puis un clic sur la destination.",
+      "en": "For any dragging action, add a drag-free alternative: \"move up\" and \"move down\" buttons, a \"move to\" menu, or a select-then-click-the-destination pattern."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.5.7"
+      ],
+      "rgaa": [],
+      "qc": [
+        "2.5.7"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "2.5.8",
+    "name": "Target Size (Minimum)",
+    "name_fr": "Taille de la cible (minimum)",
+    "fullTitle": "WCAG 2.2 Success Criterion 2.5.8 Target Size (Minimum)",
+    "level": "AA",
+    "version": "2.2",
+    "principle": "Operable",
+    "principleLetter": "O",
+    "guidelineId": "2.5",
+    "guidelineName": "Input Modalities",
+    "url": "https://www.w3.org/TR/WCAG22/#target-size-minimum",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+    "disability_tags": [
+      "motor",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Les cibles cliquables ou tactiles doivent avoir une taille minimale de 24 par 24 pixels, sauf exceptions justifiées.",
+      "en": "Clickable or touch targets must have a minimum size of 24 by 24 pixels, except in justified cases."
+    },
+    "plain": {
+      "fr": "Version de base de la règle sur la taille des cibles : au moins 24 pixels de côté, ou un espacement équivalent autour d'une cible plus petite. En dessous, viser le bon bouton dans une liste serrée devient un jeu d'adresse.",
+      "en": "The basic version of the target-size rule: at least 24 pixels on each side, or equivalent spacing around a smaller target. Below that, hitting the right button in a tight list becomes a test of dexterity."
+    },
+    "remediation": {
+      "fr": "Vérifiez que chaque cible cliquable fait au moins 24 par 24 pixels. Si elle est plus petite, laissez autour d'elle une zone libre suffisante pour qu'un cercle de 24 pixels ne touche aucune autre cible.",
+      "en": "Check that every clickable target is at least 24 by 24 pixels. If it's smaller, leave enough clear space around it that a 24-pixel circle wouldn't touch any other target."
+    },
+    "xref": {
+      "en301549": [
+        "9.2.5.8"
+      ],
+      "rgaa": [],
+      "qc": [
+        "2.5.8"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.1.1",
+    "name": "Language of Page",
+    "name_fr": "Langue de la page",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.1.1 Language of Page",
+    "level": "A",
+    "version": "2.1",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.1",
+    "guidelineName": "Readable",
+    "url": "https://www.w3.org/TR/WCAG22/#language-of-page",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html",
+    "disability_tags": [
+      "blind",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "La langue principale de chaque page doit être indiquée dans le code, pour que les technologies d'assistance appliquent la bonne prononciation.",
+      "en": "The main language of each page must be indicated in the code, so assistive technologies apply the correct pronunciation."
+    },
+    "plain": {
+      "fr": "Un lecteur d'écran change de voix et de règles de prononciation selon la langue déclarée de la page. Si elle n'est pas indiquée, il lit du français avec un moteur anglais, ou l'inverse, et le résultat est souvent incompréhensible.",
+      "en": "A screen reader switches voice and pronunciation rules based on the page's declared language. If it isn't set, it reads French with an English engine, or the reverse, and the result is often unintelligible."
+    },
+    "remediation": {
+      "fr": "Déclarez la langue principale de la page sur l'élément racine, avec le bon code : `lang=\"fr\"` pour une page en français, `lang=\"en\"` pour l'anglais. Un seul attribut par page suffit pour le contenu majoritaire.",
+      "en": "Declare the page's main language on the root element, with the right code: `lang=\"fr\"` for a French page, `lang=\"en\"` for English. One attribute per page covers the bulk of the content."
+    },
+    "xref": {
+      "en301549": [
+        "9.3.1.1"
+      ],
+      "rgaa": [
+        "8.3",
+        "8.4",
+        "13.3",
+        "13.4"
+      ],
+      "qc": [
+        "3.1.1"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.1.2",
+    "name": "Language of Parts",
+    "name_fr": "Langue d'un passage",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.1.2 Language of Parts",
+    "level": "AA",
+    "version": "2.1",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.1",
+    "guidelineName": "Readable",
+    "url": "https://www.w3.org/TR/WCAG22/#language-of-parts",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts.html",
+    "disability_tags": [
+      "blind",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Quand un passage de texte est dans une langue différente de la langue principale de la page, cette langue doit aussi être indiquée dans le code.",
+      "en": "When a passage of text is in a different language from the page's main language, that language must also be indicated in the code."
+    },
+    "plain": {
+      "fr": "Sur une page en français, une citation ou une expression en anglais doit être signalée dans le code pour que le lecteur d'écran bascule sur la bonne prononciation le temps de ce passage, puis revienne.",
+      "en": "On a French page, a quote or a phrase in English needs to be marked in the code so the screen reader switches to the right pronunciation for that passage, then switches back."
+    },
+    "remediation": {
+      "fr": "Entourez chaque passage écrit dans une autre langue d'un élément portant l'attribut `lang` correspondant. Les mots empruntés passés dans l'usage courant (« week-end », « email ») ne sont pas visés.",
+      "en": "Wrap each passage written in another language in an element carrying the matching `lang` attribute. Loan words that have entered everyday use (\"week-end\", \"email\") are not covered."
+    },
+    "xref": {
+      "en301549": [
+        "9.3.1.2"
+      ],
+      "rgaa": [
+        "8.7",
+        "8.8"
+      ],
+      "qc": [
+        "3.1.2"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.1.3",
+    "name": "Unusual Words",
+    "name_fr": "Mots inhabituels",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.1.3 Unusual Words",
+    "level": "AAA",
+    "version": "2.1",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.1",
+    "guidelineName": "Readable",
+    "url": "https://www.w3.org/TR/WCAG22/#unusual-words",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html",
+    "disability_tags": [
+      "cognitive",
+      "deaf-hoh"
+    ],
+    "description": {
+      "fr": "Les termes rares, techniques ou utilisés de façon particulière doivent avoir une définition disponible, via un glossaire ou une explication en ligne.",
+      "en": "Rare, technical, or unusually used terms must have a definition available, via a glossary or an inline explanation."
+    },
+    "plain": {
+      "fr": "Un mot technique, un terme de métier ou un mot employé dans un sens inhabituel peut bloquer la lecture pour qui ne le connaît pas. Une définition à portée de main lève l'obstacle sans casser le fil du texte.",
+      "en": "A technical word, a trade term, or a word used in an unusual sense can stop a reader who doesn't know it. A definition within reach removes the obstacle without breaking the flow of the text."
+    },
+    "remediation": {
+      "fr": "Fournissez le sens des termes rares ou spécialisés : un lien vers une entrée de glossaire, une définition entre parenthèses à la première occurrence, ou une info-bulle accessible. Visez au moins un moyen pour chaque terme concerné.",
+      "en": "Provide the meaning of rare or specialized terms: a link to a glossary entry, a parenthetical definition at first use, or an accessible tooltip. Aim for at least one method for each term involved."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.1.4",
+    "name": "Abbreviations",
+    "name_fr": "Abréviations",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.1.4 Abbreviations",
+    "level": "AAA",
+    "version": "2.2",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.1",
+    "guidelineName": "Readable",
+    "url": "https://www.w3.org/TR/WCAG22/#abbreviations",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/abbreviations.html",
+    "disability_tags": [
+      "cognitive",
+      "blind",
+      "deaf-hoh"
+    ],
+    "description": {
+      "fr": "La signification d'une abréviation doit pouvoir être obtenue facilement, la première fois qu'elle apparaît dans le contenu.",
+      "en": "The meaning of an abbreviation must be easy to obtain, the first time it appears in the content."
+    },
+    "plain": {
+      "fr": "Un sigle comme « RGAA » ou « ATAG » ne dit rien à qui le croise pour la première fois, et un lecteur d'écran l'épelle ou le prononce mal. Donner la forme longue au moins une fois lève le doute.",
+      "en": "An abbreviation like \"WCAG\" or \"ARIA\" means nothing to someone meeting it for the first time, and a screen reader either spells it out or mispronounces it. Giving the full form at least once removes the doubt."
+    },
+    "remediation": {
+      "fr": "À la première apparition d'une abréviation, écrivez sa forme complète, puis l'abréviation entre parenthèses. Vous pouvez aussi utiliser l'élément `abbr` avec un attribut `title`, ou renvoyer vers un glossaire des sigles.",
+      "en": "At an abbreviation's first appearance, write its full form, then the abbreviation in parentheses. You can also use the `abbr` element with a `title` attribute, or point to a glossary of abbreviations."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": [
+        "3.1.4"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.1.5",
+    "name": "Reading Level",
+    "name_fr": "Niveau de lecture",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.1.5 Reading Level",
+    "level": "AAA",
+    "version": "2.2",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.1",
+    "guidelineName": "Readable",
+    "url": "https://www.w3.org/TR/WCAG22/#reading-level",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html",
+    "disability_tags": [
+      "cognitive",
+      "deaf-hoh"
+    ],
+    "description": {
+      "fr": "Si un texte nécessite un niveau de lecture avancé, une version simplifiée doit être proposée en complément.",
+      "en": "If a text requires an advanced reading level, a simplified version must be offered in addition."
+    },
+    "plain": {
+      "fr": "Un texte administratif ou juridique dense exclut de fait les personnes qui lisent avec difficulté, or ce sont souvent celles que ce texte concerne. Une version simplifiée à côté de l'originale leur rend le contenu accessible.",
+      "en": "Dense administrative or legal text effectively shuts out people who read with difficulty, who are often the very people the text concerns. A simplified version alongside the original makes the content reachable for them."
+    },
+    "remediation": {
+      "fr": "Quand un contenu exige un niveau de lecture avancé (au-delà du premier cycle du secondaire), proposez en complément un résumé ou une version en langage clair qui transmet la même information. Des illustrations ou une version audio peuvent aussi aider.",
+      "en": "When content requires a reading level above lower secondary education, also offer a summary or a plain-language version that conveys the same information. Illustrations or an audio version can help too."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.1.6",
+    "name": "Pronunciation",
+    "name_fr": "Prononciation",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.1.6 Pronunciation",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.1",
+    "guidelineName": "Readable",
+    "url": "https://www.w3.org/TR/WCAG22/#pronunciation",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html",
+    "disability_tags": [
+      "blind",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Quand la prononciation d'un mot est essentielle à la compréhension et ambiguë à la lecture, un moyen de connaître cette prononciation doit être fourni.",
+      "en": "When a word's pronunciation is essential to understanding and ambiguous from reading, a way to know that pronunciation must be provided."
+    },
+    "plain": {
+      "fr": "Certains mots changent de sens selon la façon dont on les prononce, et un lecteur d'écran ne tranche pas toujours. Quand la prononciation est nécessaire pour comprendre, il faut la donner.",
+      "en": "Some words change meaning depending on how they're pronounced, and a screen reader doesn't always get it right. When pronunciation matters for understanding, it has to be provided."
+    },
+    "remediation": {
+      "fr": "Pour les mots dont la prononciation est ambiguë et porteuse de sens, ajoutez une indication : transcription phonétique, court extrait audio, ou reformulation qui lève l'ambiguïté.",
+      "en": "For words whose pronunciation is ambiguous and carries meaning, add a cue: a phonetic transcription, a short audio clip, or a rewording that removes the ambiguity."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.2.1",
+    "name": "On Focus",
+    "name_fr": "Au focus",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.2.1 On Focus",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.2",
+    "guidelineName": "Predictable",
+    "url": "https://www.w3.org/TR/WCAG22/#on-focus",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/on-focus.html",
+    "disability_tags": [
+      "blind",
+      "low-vision",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Le fait de donner le focus à un élément ne doit déclencher aucun changement de contexte inattendu, comme l'ouverture automatique d'une nouvelle fenêtre.",
+      "en": "Giving focus to an element must not trigger any unexpected change of context, such as automatically opening a new window."
+    },
+    "plain": {
+      "fr": "Poser le focus sur un champ ou un lien, sans même cliquer, ne devrait rien déclencher de brutal : pas d'ouverture de fenêtre, pas de changement de page, pas de saut du focus ailleurs. Sinon on perd le contrôle de sa navigation au clavier.",
+      "en": "Landing focus on a field or a link, without even clicking, shouldn't trigger anything abrupt: no window opening, no page change, no focus jumping elsewhere. Otherwise you lose control of your keyboard navigation."
+    },
+    "remediation": {
+      "fr": "Ne liez aucun changement de contexte à l'événement de prise de focus. Réservez les actions au clic ou à l'activation explicite, et testez chaque champ en le parcourant à la tabulation sans rien saisir.",
+      "en": "Don't tie any change of context to the focus event. Keep actions on click or explicit activation, and test each field by tabbing through it without typing anything."
+    },
+    "xref": {
+      "en301549": [
+        "9.3.2.1"
+      ],
+      "rgaa": [
+        "7.4",
+        "13.2"
+      ],
+      "qc": [
+        "3.2.1"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.2.2",
+    "name": "On Input",
+    "name_fr": "À la saisie",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.2.2 On Input",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.2",
+    "guidelineName": "Predictable",
+    "url": "https://www.w3.org/TR/WCAG22/#on-input",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/on-input.html",
+    "disability_tags": [
+      "blind",
+      "low-vision",
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Le fait de modifier la valeur d'un champ ne doit déclencher aucun changement de contexte inattendu, sauf si la personne en a été prévenue à l'avance.",
+      "en": "Changing the value of a field must not trigger any unexpected change of context, unless the person has been warned about it in advance."
+    },
+    "plain": {
+      "fr": "Modifier un champ, cocher une case ou choisir dans une liste ne devrait pas, à soi seul, recharger la page ou envoyer le formulaire. Si un tel effet est prévu, il faut prévenir avant.",
+      "en": "Changing a field, ticking a box, or picking from a list shouldn't, on its own, reload the page or submit the form. If such an effect is intended, warn about it beforehand."
+    },
+    "remediation": {
+      "fr": "Attendez une action de validation explicite (un bouton) pour tout changement important. Si un champ doit déclencher une mise à jour, annoncez-le clairement à côté du champ avant que la personne y touche.",
+      "en": "Wait for an explicit confirming action (a button) before any significant change. If a field must trigger an update, state it clearly next to the field before the person interacts with it."
+    },
+    "xref": {
+      "en301549": [
+        "9.3.2.2"
+      ],
+      "rgaa": [
+        "7.4"
+      ],
+      "qc": [
+        "3.2.2"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.2.3",
+    "name": "Consistent Navigation",
+    "name_fr": "Navigation cohérente",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.2.3 Consistent Navigation",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.2",
+    "guidelineName": "Predictable",
+    "url": "https://www.w3.org/TR/WCAG22/#consistent-navigation",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation.html",
+    "disability_tags": [
+      "cognitive",
+      "blind",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Les éléments de navigation qui se répètent sur plusieurs pages doivent apparaître dans le même ordre relatif, pour rester prévisibles d'une page à l'autre.",
+      "en": "Navigation elements that repeat across multiple pages must appear in the same relative order, to remain predictable from one page to the next."
+    },
+    "plain": {
+      "fr": "Quand le menu, la recherche et les liens d'en-tête restent au même endroit et dans le même ordre d'une page à l'autre, on les retrouve sans réfléchir. Les réorganiser à chaque page force à tout réapprendre.",
+      "en": "When the menu, the search box, and the header links stay in the same place and the same order from page to page, you find them without thinking. Rearranging them on every page forces you to relearn each time."
+    },
+    "remediation": {
+      "fr": "Gardez le même ordre relatif pour les blocs de navigation répétés sur l'ensemble du site. Leur apparence peut s'adapter à la taille de l'écran, mais leur séquence doit rester stable.",
+      "en": "Keep the same relative order for navigation blocks that repeat across the site. Their appearance can adapt to screen size, but their sequence must stay stable."
+    },
+    "xref": {
+      "en301549": [
+        "9.3.2.3"
+      ],
+      "rgaa": [
+        "12.2",
+        "12.4",
+        "12.5",
+        "12.7"
+      ],
+      "qc": [
+        "3.2.3"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.2.4",
+    "name": "Consistent Identification",
+    "name_fr": "Identification cohérente",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.2.4 Consistent Identification",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.2",
+    "guidelineName": "Predictable",
+    "url": "https://www.w3.org/TR/WCAG22/#consistent-identification",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification.html",
+    "disability_tags": [
+      "cognitive",
+      "blind"
+    ],
+    "description": {
+      "fr": "Un même élément qui remplit la même fonction doit être identifié de façon cohérente d'une page à l'autre du site, avec le même intitulé, la même icône et le même format.",
+      "en": "The same element serving the same function must be identified consistently from one page to another on the site, with the same label, the same icon, and the same format."
+    },
+    "plain": {
+      "fr": "Si une même fonction s'appelle « Rechercher » sur une page et « Trouver » sur une autre, ou change d'icône, on doute qu'il s'agisse de la même chose. Un intitulé et un symbole constants évitent cette hésitation.",
+      "en": "If the same function is called \"Search\" on one page and \"Find\" on another, or changes its icon, you doubt it's the same thing. A constant label and symbol remove that hesitation."
+    },
+    "remediation": {
+      "fr": "Utilisez le même intitulé, la même icône et le même texte de remplacement pour un composant qui remplit la même fonction partout dans le site. La cohérence prime sur la variété.",
+      "en": "Use the same label, the same icon, and the same alternative text for a component that serves the same function everywhere on the site. Consistency is better than variety."
+    },
+    "xref": {
+      "en301549": [
+        "9.3.2.4"
+      ],
+      "rgaa": [
+        "11.3"
+      ],
+      "qc": [
+        "3.2.4"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.2.5",
+    "name": "Change on Request",
+    "name_fr": "Changement à la demande",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.2.5 Change on Request",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.2",
+    "guidelineName": "Predictable",
+    "url": "https://www.w3.org/TR/WCAG22/#change-on-request",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/change-on-request.html",
+    "disability_tags": [
+      "cognitive",
+      "blind",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Tout changement de contexte significatif devrait être déclenché uniquement à la demande explicite de la personne, jamais automatiquement.",
+      "en": "Any significant change of context should be triggered only at the person's explicit request, never automatically."
+    },
+    "plain": {
+      "fr": "Une page qui se recharge toute seule, une redirection après quelques secondes, une fenêtre qui s'ouvre sans qu'on l'ait demandée : ces changements imposés désorientent, surtout au lecteur d'écran. Ils devraient toujours partir d'une action de la personne.",
+      "en": "A page that reloads on its own, a redirect after a few seconds, a window that opens unbidden: these forced changes disorient people, especially with a screen reader. They should always start from an action by the person."
+    },
+    "remediation": {
+      "fr": "Supprimez les rechargements et redirections automatiques. Quand un changement de page ou de contexte est nécessaire, déclenchez-le par un bouton ou un lien clairement identifié, et laissez la personne décider du moment.",
+      "en": "Remove automatic reloads and redirects. When a page or context change is needed, trigger it with a clearly identified button or link, and let the person decide when."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.2.6",
+    "name": "Consistent Help",
+    "name_fr": "Aide cohérente",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.2.6 Consistent Help",
+    "level": "A",
+    "version": "2.2",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.2",
+    "guidelineName": "Predictable",
+    "url": "https://www.w3.org/TR/WCAG22/#consistent-help",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html",
+    "disability_tags": [
+      "cognitive",
+      "low-vision",
+      "motor"
+    ],
+    "description": {
+      "fr": "Quand un mécanisme d'aide existe, comme un contact, une foire aux questions ou un clavardage, il doit être présent au même endroit relatif sur toutes les pages où il apparaît.",
+      "en": "When a help mechanism exists, such as a contact option, an FAQ, or a chat, it must appear in the same relative location on every page where it is present."
+    },
+    "plain": {
+      "fr": "Chercher de l'aide est déjà un moment de tension. Si le lien de contact ou d'aide se trouve toujours au même endroit, on le trouve vite. S'il se déplace de page en page, on s'énerve à le chercher.",
+      "en": "Looking for help is already a tense moment. If the contact or help link is always in the same place, you find it fast. If it moves from page to page, you get frustrated hunting for it."
+    },
+    "remediation": {
+      "fr": "Placez le mécanisme d'aide (lien de contact, foire aux questions, clavardage) au même endroit relatif sur toutes les pages où il apparaît, par exemple en fin d'en-tête ou en début de pied de page.",
+      "en": "Put the help mechanism (contact link, FAQ, chat) in the same relative place on every page where it appears, for instance at the end of the header or the start of the footer."
+    },
+    "xref": {
+      "en301549": [
+        "9.3.2.6"
+      ],
+      "rgaa": [],
+      "qc": [
+        "3.2.6"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.3.1",
+    "name": "Error Identification",
+    "name_fr": "Identification des erreurs",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.3.1 Error Identification",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.3",
+    "guidelineName": "Input Assistance",
+    "url": "https://www.w3.org/TR/WCAG22/#error-identification",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html",
+    "disability_tags": [
+      "blind",
+      "low-vision",
+      "cognitive",
+      "color-blind"
+    ],
+    "description": {
+      "fr": "Quand une erreur de saisie est détectée dans un formulaire, elle doit être clairement identifiée et décrite en texte, pas seulement par une couleur.",
+      "en": "When an input error is detected in a form, it must be clearly identified and described in text, not only through colour."
+    },
+    "plain": {
+      "fr": "Quand un formulaire refuse une saisie, la personne doit savoir quel champ pose problème et pourquoi, en toutes lettres. Un simple encadré rouge, ou un « erreur » sans autre précision, ne suffit pas à corriger.",
+      "en": "When a form rejects an entry, the person needs to know which field is the problem and why, spelled out. A red border alone, or an \"error\" with no detail, isn't enough to fix it."
+    },
+    "remediation": {
+      "fr": "Signalez chaque erreur par un texte qui nomme le champ concerné et décrit le problème (« Le courriel doit contenir un @ »). Reliez le message au champ, placez-le près de lui, et ne comptez pas sur la seule couleur.",
+      "en": "Flag each error with text that names the field involved and describes the problem (\"The email must contain an @\"). Tie the message to the field, place it nearby, and don't rely on colour alone."
+    },
+    "xref": {
+      "en301549": [
+        "9.3.3.1"
+      ],
+      "rgaa": [
+        "11.10"
+      ],
+      "qc": [
+        "3.3.1"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.3.2",
+    "name": "Labels or Instructions",
+    "name_fr": "Étiquettes ou instructions",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.3.2 Labels or Instructions",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.3",
+    "guidelineName": "Input Assistance",
+    "url": "https://www.w3.org/TR/WCAG22/#labels-or-instructions",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html",
+    "disability_tags": [
+      "blind",
+      "cognitive",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Des étiquettes ou des instructions doivent accompagner les champs de formulaire qui demandent une saisie de la personne.",
+      "en": "Labels or instructions must accompany form fields that request input from the person."
+    },
+    "plain": {
+      "fr": "Un champ sans étiquette, ou avec un simple texte gris qui disparaît dès qu'on tape, laisse deviner ce qu'on attend. Une étiquette visible et permanente, plus une consigne quand c'est utile, évite les erreurs.",
+      "en": "A field with no label, or just grey placeholder text that vanishes as soon as you type, leaves you guessing what's expected. A visible, permanent label, plus an instruction where useful, prevents mistakes."
+    },
+    "remediation": {
+      "fr": "Donnez à chaque champ une étiquette visible, reliée au champ dans le code. Ajoutez les consignes de format ou les contraintes (longueur du mot de passe, format de date) avant le champ, pas seulement dans un message d'erreur.",
+      "en": "Give every field a visible label, tied to the field in the code. Put format instructions or constraints (password length, date format) before the field, not only in an error message."
+    },
+    "xref": {
+      "en301549": [
+        "9.3.3.2"
+      ],
+      "rgaa": [
+        "11.1",
+        "11.2",
+        "11.4",
+        "11.5",
+        "11.6",
+        "11.7",
+        "11.10"
+      ],
+      "qc": [
+        "3.3.2"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.3.3",
+    "name": "Error Suggestion",
+    "name_fr": "Suggestion après une erreur",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.3.3 Error Suggestion",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.3",
+    "guidelineName": "Input Assistance",
+    "url": "https://www.w3.org/TR/WCAG22/#error-suggestion",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html",
+    "disability_tags": [
+      "cognitive",
+      "blind",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Quand une erreur de saisie est détectée et que la correction peut être suggérée sans compromettre la sécurité, une suggestion doit être proposée à la personne.",
+      "en": "When an input error is detected and a correction can be suggested without compromising security, a suggestion must be offered to the person."
+    },
+    "plain": {
+      "fr": "Une erreur signalée sans piste de correction laisse la personne tourner en rond. Quand le système peut deviner ce qui était attendu, il devrait le dire : le bon format, une valeur proche, la marche à suivre.",
+      "en": "An error flagged with no hint toward a fix leaves the person going in circles. When the system can guess what was expected, it should say so: the right format, a near value, the steps to take."
+    },
+    "remediation": {
+      "fr": "Avec chaque message d'erreur, proposez une correction quand c'est possible : « Essayez le format JJ/MM/AAAA », « Vouliez-vous dire exemple@domaine.ca ? ». Ne donnez pas d'indice si cela révèle une information sensible, comme sur un mot de passe.",
+      "en": "With each error message, offer a correction where possible: \"Try the format DD/MM/YYYY\", \"Did you mean example@domain.ca?\". Don't give a hint if it would reveal sensitive information, such as on a password."
+    },
+    "xref": {
+      "en301549": [
+        "9.3.3.3"
+      ],
+      "rgaa": [
+        "11.11"
+      ],
+      "qc": [
+        "3.3.3"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.3.4",
+    "name": "Error Prevention (Legal, Financial, Data)",
+    "name_fr": "Prévention des erreurs (juridiques, financières, de données)",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.3.4 Error Prevention (Legal, Financial, Data)",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.3",
+    "guidelineName": "Input Assistance",
+    "url": "https://www.w3.org/TR/WCAG22/#error-prevention-legal-financial-data",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data.html",
+    "disability_tags": [
+      "cognitive",
+      "motor",
+      "blind"
+    ],
+    "description": {
+      "fr": "Pour les actions ayant des conséquences légales, financières ou de suppression de données, la personne doit pouvoir vérifier, corriger ou annuler avant la validation finale.",
+      "en": "For actions with legal, financial, or data-deletion consequences, the person must be able to review, correct, or cancel before final submission."
+    },
+    "plain": {
+      "fr": "Certaines actions sont difficiles ou ont un impact durable, comme la suppression définitive d'un compte ou la finalisation d'un achat. Avant la validation finale, la personne doit pouvoir relire, corriger, ou faire marche arrière.",
+      "en": "Some actions are hard to undo or have lasting effects, such as permanently deleting an account or completing a purchase. Before final submission, the person must be able to review, correct, or back out."
+    },
+    "remediation": {
+      "fr": "Pour ces actions à fortes conséquences, prévoyez au moins une de ces protections : une étape de récapitulatif avant validation, une possibilité d'annuler après coup, ou une vérification des données saisies avec correction possible.",
+      "en": "For these high-consequence actions, provide at least one of these safeguards: a review step before submission, a way to undo afterward, or a check of the entered data with the chance to correct it."
+    },
+    "xref": {
+      "en301549": [
+        "9.3.3.4"
+      ],
+      "rgaa": [
+        "11.12"
+      ],
+      "qc": [
+        "3.3.4"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.3.5",
+    "name": "Help",
+    "name_fr": "Aide",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.3.5 Help",
+    "level": "AAA",
+    "version": "2.0",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.3",
+    "guidelineName": "Input Assistance",
+    "url": "https://www.w3.org/TR/WCAG22/#help",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/help.html",
+    "disability_tags": [
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Une aide contextuelle devrait être disponible pour accompagner la personne dans la complétion d'un formulaire complexe.",
+      "en": "Contextual help should be available to assist the person in completing a complex form."
+    },
+    "plain": {
+      "fr": "Un formulaire technique (déclaration, demande d'aide, dossier administratif) génère beaucoup d'abandons faute d'accompagnement. Une aide au bon endroit, au bon moment, fait la différence.",
+      "en": "A technical form (a filing, a benefits application, an administrative case) causes many drop-offs for lack of support. Help in the right place, at the right moment, makes the difference."
+    },
+    "remediation": {
+      "fr": "Ajoutez une aide contextuelle aux champs complexes : un exemple, une explication dépliable à côté du champ, un lien vers des instructions détaillées, ou un moyen de joindre une personne.",
+      "en": "Add contextual help to complex fields: an example, an expandable explanation next to the field, a link to detailed instructions, or a way to reach a person."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.3.6",
+    "name": "Error Prevention (All)",
+    "name_fr": "Prévention des erreurs (toutes)",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.3.6 Error Prevention (All)",
+    "level": "AAA",
+    "version": "2.2",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.3",
+    "guidelineName": "Input Assistance",
+    "url": "https://www.w3.org/TR/WCAG22/#error-prevention-all",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html",
+    "disability_tags": [
+      "cognitive",
+      "motor",
+      "blind"
+    ],
+    "description": {
+      "fr": "Pour toute soumission de formulaire, pas seulement les cas légaux ou financiers, la personne doit pouvoir vérifier, corriger ou annuler avant la validation finale.",
+      "en": "For any form submission, not only legal or financial cases, the person must be able to review, correct, or cancel before final submission."
+    },
+    "plain": {
+      "fr": "Version élargie de la prévention des erreurs : la possibilité de vérifier, corriger ou annuler avant l'envoi devrait valoir pour toute soumission, pas seulement les formulaires d'achat ou de contrat.",
+      "en": "The broader version of error prevention: the chance to review, correct, or cancel before submitting should apply to any submission, not only purchase or contract forms."
+    },
+    "remediation": {
+      "fr": "Sur tous les formulaires, laissez revoir la saisie avant l'envoi et corriger sans repartir de zéro. Une étape de confirmation, une réversibilité, ou une relecture guidée conviennent, selon l'enjeu.",
+      "en": "On every form, let people review their input before submitting and correct it without starting over. A confirmation step, a way to reverse, or a guided review all work, depending on the stakes."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.3.7",
+    "name": "Redundant Entry",
+    "name_fr": "Saisie redondante",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.3.7 Redundant Entry",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.3",
+    "guidelineName": "Input Assistance",
+    "url": "https://www.w3.org/TR/WCAG22/#redundant-entry",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html",
+    "disability_tags": [
+      "cognitive",
+      "motor"
+    ],
+    "description": {
+      "fr": "Une information déjà saisie par la personne au cours d'un même processus ne devrait pas lui être redemandée, sauf exception justifiée.",
+      "en": "Information already entered by the person during the same process should not be requested again, except in justified cases."
+    },
+    "plain": {
+      "fr": "Redemander le nom, l'adresse ou le courriel à chaque étape d'un même parcours est pénible pour tout le monde, et bloque carrément les personnes qui saisissent lentement ou qui ont des troubles de mémoire.",
+      "en": "Asking again for a name, address, or email at each step of the same flow is tedious for everyone, and blocks people who type slowly or have memory difficulties outright."
+    },
+    "remediation": {
+      "fr": "Réutilisez les informations déjà fournies dans le même processus : pré-remplissez, ou proposez de reprendre la saisie précédente d'un clic. Ne redemandez une donnée que si elle doit être vérifiée pour des raisons de sécurité.",
+      "en": "Reuse the information already given in the same process: pre-fill it, or offer to bring the previous entry back with one click. Only ask again for a piece of data if it must be verified for security reasons."
+    },
+    "xref": {
+      "en301549": [
+        "9.3.3.7"
+      ],
+      "rgaa": [],
+      "qc": [
+        "3.3.7"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.3.8",
+    "name": "Accessible Authentication",
+    "name_fr": "Authentification accessible (minimum)",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.3.8 Accessible Authentication",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.3",
+    "guidelineName": "Input Assistance",
+    "url": "https://www.w3.org/TR/WCAG22/#accessible-authentication",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication.html",
+    "disability_tags": [
+      "cognitive",
+      "motor"
+    ],
+    "description": {
+      "fr": "Un processus d'authentification ne doit pas reposer uniquement sur un test cognitif, comme mémoriser un mot de passe complexe ou résoudre une énigme, une alternative doit exister.",
+      "en": "An authentication process must not rely solely on a cognitive test, such as memorizing a complex password or solving a puzzle; an alternative must exist."
+    },
+    "plain": {
+      "fr": "Se connecter ne devrait pas exiger de retenir par cœur un mot de passe compliqué ou de résoudre une énigme. Pour une personne avec des troubles de mémoire ou d'attention, ce test est un mur.",
+      "en": "Logging in shouldn't require memorizing a complicated password or solving a puzzle. For someone with memory or attention difficulties, that test is a wall."
+    },
+    "remediation": {
+      "fr": "Laissez le navigateur et les gestionnaires de mots de passe remplir et coller les identifiants. Proposez au moins une méthode sans effort de mémoire : lien de connexion par courriel, clé d'accès, connexion via un compte existant.",
+      "en": "Let browsers and password managers fill and paste credentials. Offer at least one method with no memory effort: an email sign-in link, a passkey, or logging in through an existing account."
+    },
+    "xref": {
+      "en301549": [
+        "9.3.3.8"
+      ],
+      "rgaa": [],
+      "qc": [
+        "3.3.8"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "3.3.9",
+    "name": "Accessible Authentication (Enhanced)",
+    "name_fr": "Authentification accessible (amélioré)",
+    "fullTitle": "WCAG 2.2 Success Criterion 3.3.9 Accessible Authentication (Enhanced)",
+    "level": "AAA",
+    "version": "2.1",
+    "principle": "Understandable",
+    "principleLetter": "U",
+    "guidelineId": "3.3",
+    "guidelineName": "Input Assistance",
+    "url": "https://www.w3.org/TR/WCAG22/#accessible-authentication-enhanced",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced.html",
+    "disability_tags": [
+      "cognitive"
+    ],
+    "description": {
+      "fr": "Un processus d'authentification ne doit reposer sur aucun test cognitif, même avec une alternative, sauf pour la reconnaissance d'objets ou de contenu personnel de la personne.",
+      "en": "An authentication process must not rely on any cognitive test, even with an alternative, except for recognizing objects or personal content belonging to the person."
+    },
+    "plain": {
+      "fr": "Version stricte : le processus de connexion ne doit s'appuyer sur aucun test de mémoire ou de réflexion, même en offrant une solution de repli. Reconnaître ses propres photos ou objets reste permis.",
+      "en": "The strict version: the sign-in process must not rely on any memory or reasoning test, even with a fallback. Recognizing your own photos or objects is still allowed."
+    },
+    "remediation": {
+      "fr": "Retirez les questions secrètes, les énigmes et les mots de passe des chemins de connexion et de récupération, y compris comme solution de secours. Reposez-vous sur les clés d'accès, les liens par courriel, ou la biométrie de l'appareil.",
+      "en": "Remove security questions, puzzles, and passwords from sign-in and recovery paths, including as a fallback. Rely on passkeys, email links, or the device's own biometrics."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [],
+      "qc": []
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "4.1.1",
+    "name": "Parsing",
+    "name_fr": "Analyse syntaxique",
+    "fullTitle": "WCAG 2.2 Success Criterion 4.1.1 Parsing",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Robust",
+    "principleLetter": "R",
+    "guidelineId": "4.1",
+    "guidelineName": "Compatible",
+    "url": "https://www.w3.org/TR/WCAG22/#parsing",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/parsing.html",
+    "disability_tags": [
+      "blind"
+    ],
+    "description": {
+      "fr": "Ce critère, retiré de la liste active en WCAG 2.2, portait sur la validité structurelle du code (balises bien formées, sans identifiant dupliqué). Il reste répertorié ici pour référence historique.",
+      "en": "This criterion, removed from the active list in WCAG 2.2, covered the structural validity of code (well-formed tags, no duplicate IDs). It remains listed here for historical reference."
+    },
+    "plain": {
+      "fr": "Ce critère a été retiré de WCAG 2.2. Il demandait un code HTML bien formé : balises fermées, identifiants uniques. Les navigateurs et les technologies d'assistance modernes corrigent d'eux-mêmes ces défauts, donc l'exigence a été jugée obsolète. Il reste listé ici pour mémoire.",
+      "en": "This criterion was removed from WCAG 2.2. It asked for well-formed HTML: closed tags, unique IDs. Modern browsers and assistive technologies fix these flaws on their own, so the requirement was judged obsolete. It stays listed here for the record."
+    },
+    "remediation": {
+      "fr": "Aucune action n'est requise pour ce critère retiré. Les problèmes qu'il visait, comme les identifiants dupliqués ou une imbrication incorrecte, restent de bonnes pratiques et sont souvent couverts par « Nom, rôle et valeur » (4.1.2).",
+      "en": "No action is required for this retired criterion. The issues it targeted, such as duplicate IDs or incorrect nesting, are still good practice and are often covered by \"Name, Role, Value\" (4.1.2)."
+    },
+    "xref": {
+      "en301549": [],
+      "rgaa": [
+        "8.1",
+        "8.2"
+      ],
+      "qc": [
+        "4.1.1"
+      ]
+    },
+    "xref_note": {
+      "fr": "Le SGQRI 008 3.0 s'appuie sur les WCAG 2.1, où ce critère est de niveau A : il reste exigé au Québec, alors que la norme EN 301 549 (alignée sur WCAG 2.2) ne le référence plus.",
+      "en": "SGQRI 008 3.0 builds on WCAG 2.1, where this criterion is Level A, so it stays required in Québec, whereas EN 301 549 (aligned with WCAG 2.2) no longer references it."
+    }
+  },
+  {
+    "id": "4.1.2",
+    "name": "Name, Role, Value",
+    "name_fr": "Nom, rôle et valeur",
+    "fullTitle": "WCAG 2.2 Success Criterion 4.1.2 Name, Role, Value",
+    "level": "A",
+    "version": "2.0",
+    "principle": "Robust",
+    "principleLetter": "R",
+    "guidelineId": "4.1",
+    "guidelineName": "Compatible",
+    "url": "https://www.w3.org/TR/WCAG22/#name-role-value",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html",
+    "disability_tags": [
+      "blind",
+      "motor",
+      "speech"
+    ],
+    "description": {
+      "fr": "Les composants d'interface personnalisés doivent communiquer leur nom, leur rôle et leur état aux technologies d'assistance, via le code ou les attributs ARIA appropriés.",
+      "en": "Custom interface components must communicate their name, role, and state to assistive technologies, through code or appropriate ARIA attributes."
+    },
+    "plain": {
+      "fr": "Un bouton, une case à cocher ou un onglet fabriqués avec des `div` et du JavaScript ne disent rien d'eux-mêmes à un lecteur d'écran : ni ce qu'ils sont, ni s'ils sont cochés, ouverts ou sélectionnés. La personne entend « cliquable », sans plus.",
+      "en": "A button, a checkbox, or a tab built from `div`s and JavaScript tell a screen reader nothing about themselves: not what they are, nor whether they're checked, expanded, or selected. The person hears \"clickable\", and no more."
+    },
+    "remediation": {
+      "fr": "Préférez les éléments HTML natifs (`button`, `input`, `select`), qui portent déjà nom, rôle et état. Pour un composant sur mesure, ajoutez le rôle ARIA adéquat, un nom accessible, et tenez ses états à jour (`aria-expanded`, `aria-checked`, `aria-selected`).",
+      "en": "Prefer native HTML elements (`button`, `input`, `select`), which already carry name, role, and state. For a custom component, add the right ARIA role, an accessible name, and keep its states updated (`aria-expanded`, `aria-checked`, `aria-selected`)."
+    },
+    "xref": {
+      "en301549": [
+        "9.4.1.2"
+      ],
+      "rgaa": [
+        "1.2",
+        "1.3",
+        "1.9",
+        "2.1",
+        "2.2",
+        "4.13",
+        "5.3",
+        "7.1",
+        "7.2",
+        "8.2",
+        "9.1",
+        "10.8",
+        "11.1",
+        "11.9",
+        "12.6",
+        "13.3",
+        "13.4"
+      ],
+      "qc": [
+        "4.1.2"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "4.1.3",
+    "name": "Status Messages",
+    "name_fr": "Messages d'état",
+    "fullTitle": "WCAG 2.2 Success Criterion 4.1.3 Status Messages",
+    "level": "AA",
+    "version": "2.0",
+    "principle": "Robust",
+    "principleLetter": "R",
+    "guidelineId": "4.1",
+    "guidelineName": "Compatible",
+    "url": "https://www.w3.org/TR/WCAG22/#status-messages",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",
+    "disability_tags": [
+      "blind",
+      "low-vision"
+    ],
+    "description": {
+      "fr": "Les messages de statut, comme une confirmation, une erreur ou un chargement, qui apparaissent sans déplacer le focus doivent être annoncés automatiquement aux technologies d'assistance.",
+      "en": "Status messages, such as a confirmation, an error, or a loading indicator, that appear without moving focus must be announced automatically to assistive technologies."
+    },
+    "plain": {
+      "fr": "Beaucoup de messages (« Article ajouté au panier », « Enregistrement en cours ») apparaissent sans déplacer le focus. Une personne au lecteur d'écran ne les voit pas et ne sait pas que quelque chose a changé.",
+      "en": "Many messages (\"Item added to cart\", \"Saving\") appear without moving focus. Someone using a screen reader doesn't see them and has no idea anything changed."
+    },
+    "remediation": {
+      "fr": "Placez les messages d'état dans une région signalée comme telle (`role=\"status\"`, `role=\"alert\"`, ou `aria-live`) pour qu'ils soient annoncés sans voler le focus. Réservez `alert` aux messages urgents, `status` au reste.",
+      "en": "Put status messages in a region marked as such (`role=\"status\"`, `role=\"alert\"`, or `aria-live`) so they're announced without stealing focus. Keep `alert` for urgent messages, `status` for the rest."
+    },
+    "xref": {
+      "en301549": [
+        "9.4.1.3"
+      ],
+      "rgaa": [
+        "7.5"
+      ],
+      "qc": [
+        "4.1.3"
+      ]
+    },
+    "xref_note": {
+      "fr": "",
+      "en": ""
+    }
+  }
+]

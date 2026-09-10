@@ -1,0 +1,118 @@
+{
+  "ui": {
+    "pageTitle": "Référentiel WCAG 2.2",
+    "tagline": "Les 87 critères de succès, en clair, avec une piste de correction et les publics concernés.",
+    "eyebrow": "Vesper Lab",
+    "skipToSearch": "Aller à la recherche",
+    "skipToMain": "Aller au contenu",
+
+    "themeLabel": "Thème",
+    "themeSystem": "Système",
+    "themeDark": "Sombre",
+    "themeLight": "Clair",
+    "langToggle": "English",
+
+    "sonarCardTitle": "Sonar, le référentiel en surcouche",
+    "sonarCardBody": "Sonar ouvre ces mêmes 87 critères dans un panneau flottant, par-dessus la page que vous auditez. Glissez le lien ci-contre dans votre barre de favoris pour l'installer.",
+    "sonarDragLabel": "Sonar — WCAG 2.2",
+    "sonarHelpSummary": "L'installation par glisser ne fonctionne pas ?",
+    "sonarHelpIntro": "Créez le favori à la main :",
+    "sonarHelpStep1": "Ajoutez cette page à vos favoris (Ctrl+D ou Cmd+D).",
+    "sonarHelpStep2": "Modifiez le favori et remplacez son adresse par le code du lien « Sonar » (clic droit sur le lien, « Copier l'adresse du lien »).",
+    "sonarHelpStep3": "Enregistrez. Le favori ouvre Sonar sur n'importe quelle page.",
+
+    "tabGlossary": "1. Glossaire",
+    "tabReport": "2. Rapport",
+    "tabSaves": "3. Sauvegardes",
+
+    "searchLabel": "Rechercher un critère",
+    "searchPlaceholder": "Nom, identifiant ou règle…",
+    "searchHint": "La liste se filtre au fur et à mesure de la saisie.",
+
+    "reportModeBtn": "Nouveau rapport",
+    "reportModeBtnActive": "Mode rapport actif",
+    "resetFiltersBtn": "Réinitialiser les filtres",
+
+    "filtersLegend": "Filtres",
+    "filterPrinciple": "Principe",
+    "filterLevel": "Niveau",
+    "filterVersion": "Version",
+    "filterDisability": "Public concerné",
+
+    "colId": "ID",
+    "colName": "Nom du critère",
+    "colLevel": "Niveau",
+    "colVersion": "Version",
+    "colPrinciple": "Principe",
+    "colGuideline": "Règle",
+
+    "tableCaption": "Critères de succès WCAG 2.2. Tri par en-tête de colonne, filtres au-dessus.",
+    "noResults": "Aucun critère ne correspond à cette recherche ou à ces filtres.",
+    "resultLine": "{n} critère(s) affiché(s) sur {total}",
+    "datasetLoading": "Chargement…",
+    "datasetCount": "{n} critères chargés",
+    "selectionCount": "{n} critère(s) sélectionné(s)",
+
+    "ficheStandard": "Ce que disent les WCAG",
+    "fichePlain": "En clair",
+    "ficheRemediation": "Piste de correction",
+    "ficheConcerne": "Concerne",
+    "ficheReferentiels": "Autres référentiels",
+    "linkSpec": "Lire le critère (W3C)",
+    "linkUnderstanding": "Comprendre ce critère (W3C)",
+    "xrefEn301549": "EN 301 549",
+    "xrefRgaa": "RGAA 4.1",
+    "xrefQc": "SGQRI 008 3.0",
+    "xrefQcShort": "Exigé au Québec",
+
+    "reportEyebrow": "Rapport en cours",
+    "reportHeading": "{n} critère(s) sélectionné(s)",
+    "reportIntro": "Groupement par principe (P, O, U, R) puis par règle en ordre numérique. L'ordre de sélection n'est pas conservé.",
+    "saveNameLabel": "Nom du rapport",
+    "saveNamePlaceholder": "Nom du rapport (ex. Ville de Québec, page d'accueil)",
+    "saveBtn": "Sauvegarder",
+    "exportCsvBtn": "Exporter en CSV",
+    "exportPdfBtn": "Exporter en PDF",
+    "clearBtn": "Effacer la sélection",
+    "exportNote": "Les exports reprennent l'identifiant, le nom, le niveau, la description, l'explication en clair et la piste de correction.",
+    "noSelection": "Aucun critère sélectionné. Activez « Nouveau rapport » dans l'onglet Glossaire, puis cochez les critères retenus.",
+
+    "savesEyebrow": "Mémoire locale",
+    "savesHeading": "Rapports sauvegardés",
+    "savesStorageNote": "Stockés dans ce navigateur seulement.",
+    "savesFilterLabel": "Filtrer les rapports",
+    "savesFilterPlaceholder": "Filtrer les rapports…",
+    "noSaves": "Aucun rapport sauvegardé pour l'instant.",
+    "saveReload": "Recharger",
+    "saveDelete": "Supprimer",
+
+    "toastCsv": "CSV exporté ({n} critères, UTF-8 avec BOM).",
+    "toastReportLoaded": "Rapport « {name} » rechargé.",
+    "toastReportSaved": "Rapport « {name} » sauvegardé.",
+    "toastReportDeleted": "Rapport supprimé.",
+    "toastSelectionCleared": "Sélection effacée.",
+    "toastSaveNeedsName": "Donnez un nom au rapport avant de sauvegarder.",
+    "toastLocalDenied": "Écriture locale refusée par le navigateur.",
+    "toastDataError": "Impossible de charger les critères.",
+    "confirmClear": "Effacer la sélection courante ? Les rapports déjà sauvegardés ne sont pas touchés."
+  },
+
+  "principles": {
+    "Perceivable": "Perceptible",
+    "Operable": "Utilisable",
+    "Understandable": "Compréhensible",
+    "Robust": "Robuste"
+  },
+
+  "disabilityTags": {
+    "blind": "Aveugle",
+    "low-vision": "Malvoyant",
+    "deaf-hoh": "Sourd ou malentendant",
+    "motor": "Handicap moteur",
+    "cognitive": "Handicap cognitif",
+    "vestibular": "Troubles vestibulaires",
+    "photosensitive": "Épilepsie photosensible",
+    "color-blind": "Daltonisme",
+    "speech": "Trouble de la parole"
+  }
+}
