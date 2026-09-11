@@ -14,7 +14,7 @@
 
     "sonarCardTitle": "Sonar, the reference as an overlay",
     "sonarCardBody": "Sonar opens these same 87 criteria in a floating panel, on top of the page you are auditing. Drag the link beside this text onto your bookmarks bar to install it.",
-    "sonarDragLabel": "Sonar — WCAG 2.2",
+    "sonarDragLabel": "🦇 Sonar",
     "sonarHelpSummary": "Drag-to-install not working?",
     "sonarHelpIntro": "Create the bookmark by hand:",
     "sonarHelpStep1": "Bookmark this page (Ctrl+D or Cmd+D).",
@@ -94,7 +94,11 @@
     "toastSaveNeedsName": "Give the report a name before saving.",
     "toastLocalDenied": "The browser blocked local storage.",
     "toastDataError": "Could not load the criteria.",
-    "confirmClear": "Clear the current selection? Reports you already saved are not affected."
+    "confirmClear": "Clear the current selection? Reports you already saved are not affected.",
+
+    "footerBuiltBy": "Vesper Compass, built by",
+    "footerCriteria": "Criteria based on",
+    "footerSource": "Source on GitHub"
   },
 
   "principles": {

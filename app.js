@@ -309,11 +309,6 @@
         renderTable();
       });
       nameTd.appendChild(nameBtn);
-      if (isOpen) {
-        var box = document.createElement('div');
-        box.innerHTML = ficheHtml(c);
-        nameTd.appendChild(box.firstChild);
-      }
       tr.appendChild(nameTd);
 
       var levelTd = document.createElement('td');
@@ -335,6 +330,18 @@
       tr.appendChild(glTd);
 
       tbody.appendChild(tr);
+
+      if (isOpen) {
+        var ficheTr = document.createElement('tr');
+        ficheTr.className = 'fiche-row';
+        var ficheTd = document.createElement('td');
+        ficheTd.colSpan = tr.children.length;
+        var box = document.createElement('div');
+        box.innerHTML = ficheHtml(c);
+        ficheTd.appendChild(box.firstChild);
+        ficheTr.appendChild(ficheTd);
+        tbody.appendChild(ficheTr);
+      }
     });
 
     $('#noResults').hidden = !(state.data.length > 0 && list.length === 0);

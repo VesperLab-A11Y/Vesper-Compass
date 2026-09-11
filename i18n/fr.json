@@ -14,7 +14,7 @@
 
     "sonarCardTitle": "Sonar, le référentiel en surcouche",
     "sonarCardBody": "Sonar ouvre ces mêmes 87 critères dans un panneau flottant, par-dessus la page que vous auditez. Glissez le lien ci-contre dans votre barre de favoris pour l'installer.",
-    "sonarDragLabel": "Sonar — WCAG 2.2",
+    "sonarDragLabel": "🦇 Sonar",
     "sonarHelpSummary": "L'installation par glisser ne fonctionne pas ?",
     "sonarHelpIntro": "Créez le favori à la main :",
     "sonarHelpStep1": "Ajoutez cette page à vos favoris (Ctrl+D ou Cmd+D).",
@@ -94,7 +94,11 @@
     "toastSaveNeedsName": "Donnez un nom au rapport avant de sauvegarder.",
     "toastLocalDenied": "Écriture locale refusée par le navigateur.",
     "toastDataError": "Impossible de charger les critères.",
-    "confirmClear": "Effacer la sélection courante ? Les rapports déjà sauvegardés ne sont pas touchés."
+    "confirmClear": "Effacer la sélection courante ? Les rapports déjà sauvegardés ne sont pas touchés.",
+
+    "footerBuiltBy": "Vesper Compass, conçu par",
+    "footerCriteria": "Critères basés sur",
+    "footerSource": "Code source sur GitHub"
   },
 
   "principles": {

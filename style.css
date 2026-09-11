@@ -295,7 +295,7 @@ a:hover{ color:var(--link-hover); }
    ============================================================================ */
 .app-header{ display:flex; align-items:flex-end; gap:var(--space-8); flex-wrap:wrap; padding:var(--space-9) var(--space-10) 0; max-width:1180px; margin:0 auto; }
 .logo-mark{ display:inline-flex; color:var(--text-body); }
-.logo-mark svg{ height:44px; width:auto; }
+.logo-mark svg{ height:66px; width:auto; }
 .app-header .titles{ display:flex; flex-direction:column; gap:2px; }
 .eyebrow{ font-family:var(--font-display); font-size:var(--font-size-caption); letter-spacing:var(--tracking-eyebrow); text-transform:uppercase; color:var(--accent); }
 .app-header h1{ font-family:var(--font-display); font-size:var(--font-size-ui-title); font-weight:600; letter-spacing:.01em; margin:2px 0 0; }
@@ -315,7 +315,7 @@ a:hover{ color:var(--link-hover); }
 .sonar-card h2{ font-family:var(--font-display); font-size:var(--font-size-ui-h2); margin:0 0 var(--space-2); }
 .sonar-card p{ margin:0; font-size:var(--font-size-body-sm); color:var(--text-secondary); max-width:64ch; }
 .sonar-card__text{ flex:1; min-width:240px; }
-.sonar-card__actions{ display:flex; flex-direction:column; gap:var(--space-3); }
+.sonar-card__actions{ display:flex; flex-direction:column; gap:var(--space-3); width:300px; flex-shrink:0; }
 .sonar-drag{ display:inline-flex; align-items:center; gap:var(--space-3); font-size:var(--font-size-body-sm); font-weight:700; padding:var(--space-4) var(--space-7); border-radius:var(--radius-md); border:1px solid var(--accent); background:var(--accent); color:var(--accent-on); text-decoration:none; cursor:grab; }
 .sonar-drag:hover{ color:var(--accent-on); filter:brightness(1.06); }
 .sonar-help{ font-size:var(--font-size-caption); color:var(--text-muted); }
@@ -363,7 +363,7 @@ table{ width:100%; border-collapse:collapse; font-size:var(--font-size-body-sm);
 caption{ text-align:left; padding:var(--space-4) var(--space-4); font-size:var(--font-size-caption); color:var(--text-muted); }
 th, td{ padding:var(--space-3) var(--space-4); border-bottom:1px solid var(--border-default); text-align:left; vertical-align:top; }
 thead th{ position:sticky; top:0; background:var(--surface-raised); font-family:var(--font-display); font-size:var(--font-size-caption); letter-spacing:.08em; text-transform:uppercase; color:var(--text-secondary); border-bottom:1px solid var(--border-strong); }
-thead th button{ appearance:none; cursor:pointer; background:transparent; border:none; color:inherit; font:inherit; text-transform:inherit; letter-spacing:inherit; padding:0; min-height:30px; }
+thead th button{ appearance:none; cursor:pointer; background:transparent; border:none; color:inherit; font:inherit; text-transform:inherit; letter-spacing:inherit; padding:0; line-height:inherit; vertical-align:top; }
 .row-name-btn{ appearance:none; background:transparent; border:none; padding:0; cursor:pointer; display:flex; align-items:center; gap:var(--space-2); text-align:left; font:inherit; color:var(--text-body); min-height:26px; }
 .row-name-btn .twisty{ color:var(--accent); width:14px; display:inline-block; }
 .sc-name-fr{ color:var(--text-muted); }
@@ -379,7 +379,8 @@ thead th button{ appearance:none; cursor:pointer; background:transparent; border
 .badge--r{ color:var(--principle-r); }
 
 /* Fiche critère dépliée */
-.fiche{ border:1px solid var(--border-default); border-radius:var(--radius-md); padding:var(--space-6) var(--space-6); background:var(--surface-app); margin:var(--space-3) 0; display:flex; flex-direction:column; gap:var(--space-5); }
+tr.fiche-row td{ padding:0 var(--space-4) var(--space-3); border-bottom:1px solid var(--border-default); }
+.fiche{ border:1px solid var(--border-default); border-radius:var(--radius-md); padding:var(--space-6) var(--space-6); background:var(--surface-app); margin:var(--space-3) 0 0; display:flex; flex-direction:column; gap:var(--space-5); }
 .fiche h4{ font-family:var(--font-display); font-size:var(--font-size-ui-h3); margin:0 0 var(--space-1); color:var(--text-secondary); text-transform:uppercase; letter-spacing:.06em; }
 .fiche p{ margin:0; font-size:var(--font-size-body-sm); color:var(--text-body); }
 .fiche .concerne{ display:flex; gap:var(--space-2); flex-wrap:wrap; }
@@ -413,9 +414,17 @@ thead th button{ appearance:none; cursor:pointer; background:transparent; border
 #toastWrap{ min-height:30px; padding:var(--space-3) 0; text-align:center; }
 #toast{ padding:var(--space-2) var(--space-5); display:inline-block; border:1px solid var(--accent-quiet); border-radius:var(--radius-pill); background:var(--surface-card); font-size:var(--font-size-caption); color:var(--accent); }
 
+/* ============================================================================
+   Pied de page
+   ============================================================================ */
+.app-footer{ max-width:1180px; margin:var(--space-9) auto 0; padding:var(--space-6) var(--space-10) var(--space-9); border-top:1px solid var(--border-default); text-align:center; font-size:var(--font-size-caption); color:var(--text-muted); line-height:1.9; }
+.app-footer a{ color:var(--link); }
+.app-footer a:hover{ color:var(--link-hover); }
+.app-footer__links{ display:flex; gap:var(--space-6); justify-content:center; flex-wrap:wrap; margin-top:var(--space-2); }
+
 @media (max-width:640px){
   .toolbar{ grid-template-columns:1fr; }
-  .app-header, nav.tabs, main, .sonar-card, .counts-wrap{ padding-left:var(--space-6); padding-right:var(--space-6); }
+  .app-header, nav.tabs, main, .sonar-card, .counts-wrap, .app-footer{ padding-left:var(--space-6); padding-right:var(--space-6); }
 }
 
 /* ============================================================================
@@ -424,7 +433,7 @@ thead th button{ appearance:none; cursor:pointer; background:transparent; border
 #print-root{ display:none; }
 @media print{
   body{ background:#fff; color:#14110F; }
-  .app-header, nav.tabs, .toolbar, fieldset.filters, .result-line, #toastWrap, .sonar-card, .no-print, .counts{ display:none !important; }
+  .app-header, nav.tabs, .toolbar, fieldset.filters, .result-line, #toastWrap, .sonar-card, .no-print, .counts, .app-footer{ display:none !important; }
   #print-root{ display:block; }
   #print-root h1{ font-family:Georgia,serif; font-size:21pt; margin:0 0 2pt; }
   #print-root h2{ font-family:Georgia,serif; font-size:14pt; margin:16pt 0 4pt; border-bottom:1px solid #B9AF9F; padding-bottom:3pt; }
