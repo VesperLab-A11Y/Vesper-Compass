@@ -293,6 +293,7 @@
       }
 
       var idTd = document.createElement('td');
+      idTd.className = 'sticky-col';
       idTd.innerHTML = '<a href="' + esc(c.url) + '" target="_blank" rel="noreferrer">' + esc(c.id) + '</a>';
       tr.appendChild(idTd);
 
@@ -347,6 +348,18 @@
     $('#noResults').hidden = !(state.data.length > 0 && list.length === 0);
     $('#resultLine').textContent = tf('resultLine', { n: list.length, total: state.data.length });
     updateSortArrows();
+    syncFicheWidth();
+  }
+
+  // Sur petit écran, le tableau déborde et défile horizontalement (colonne ID fixe) ;
+  // la fiche dépliée doit rester lisible sans ce scroll, donc on la cale à la largeur visible.
+  function syncFicheWidth() {
+    var wrap = $('#tableWrap');
+    if (!wrap) return;
+    var narrow = window.innerWidth <= 820;
+    $all('.fiche').forEach(function (el) {
+      el.style.width = narrow ? Math.max(220, wrap.clientWidth - 24) + 'px' : '';
+    });
   }
 
   function updateSortArrows() {
@@ -592,6 +605,8 @@
     $all('input[name="theme"]').forEach(function (r) {
       r.addEventListener('change', function () { if (r.checked) applyTheme(r.value); });
     });
+
+    window.addEventListener('resize', syncFicheWidth);
 
     var backToTop = $('#backToTop');
     window.addEventListener('scroll', function () {

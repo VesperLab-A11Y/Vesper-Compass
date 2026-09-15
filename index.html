@@ -105,13 +105,14 @@
 
     <p class="result-line" id="resultLine" role="status"></p>
 
-    <div id="tableWrap">
+    <p class="table-scroll-hint" data-i18n="tableScrollHint">Le tableau défile horizontalement sur petit écran ; la colonne ID reste visible comme repère.</p>
+    <div id="tableWrap" tabindex="0" role="region" aria-labelledby="tableCaption">
       <table>
-        <caption data-i18n="tableCaption">Critères de succès WCAG 2.2. Tri par en-tête de colonne, filtres au-dessus.</caption>
+        <caption id="tableCaption" data-i18n="tableCaption">Critères de succès WCAG 2.2. Tri par en-tête de colonne, filtres au-dessus.</caption>
         <thead>
           <tr>
             <th id="selHead" hidden><span class="visually-hidden">Sélection</span></th>
-            <th><button type="button" id="sortId" data-i18n="colId">ID</button> <span id="arrId" aria-hidden="true"></span></th>
+            <th class="sticky-col"><button type="button" id="sortId" data-i18n="colId">ID</button> <span id="arrId" aria-hidden="true"></span></th>
             <th data-i18n="colName">Nom du critère</th>
             <th><button type="button" id="sortLevel" data-i18n="colLevel">Niveau</button> <span id="arrLevel" aria-hidden="true"></span></th>
             <th data-i18n="colVersion">Version</th>

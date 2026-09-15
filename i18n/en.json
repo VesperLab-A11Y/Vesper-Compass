@@ -47,6 +47,7 @@
     "colGuideline": "Guideline",
 
     "tableCaption": "WCAG 2.2 success criteria. Sort by column header, filters above.",
+    "tableScrollHint": "The table scrolls horizontally on small screens; the ID column stays visible as a landmark.",
     "noResults": "No criterion matches this search or these filters.",
     "resultLine": "{n} of {total} criteria shown",
     "datasetLoading": "Loading…",

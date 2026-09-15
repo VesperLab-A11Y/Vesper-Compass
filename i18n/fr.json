@@ -47,6 +47,7 @@
     "colGuideline": "Règle",
 
     "tableCaption": "Critères de succès WCAG 2.2. Tri par en-tête de colonne, filtres au-dessus.",
+    "tableScrollHint": "Le tableau défile horizontalement sur petit écran ; la colonne ID reste visible comme repère.",
     "noResults": "Aucun critère ne correspond à cette recherche ou à ces filtres.",
     "resultLine": "{n} critère(s) affiché(s) sur {total}",
     "datasetLoading": "Chargement…",
