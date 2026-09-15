@@ -358,7 +358,7 @@ fieldset.filters legend{ font-family:var(--font-display); font-size:var(--font-s
 
 .result-line{ font-size:var(--font-size-body-sm); color:var(--text-muted); margin:0; }
 
-#tableWrap{ border:1px solid var(--border-default); border-radius:var(--radius-lg); background:var(--surface-card); overflow:auto; max-height:64vh; }
+#tableWrap{ border:1px solid var(--border-default); border-radius:var(--radius-lg); background:var(--surface-card); overflow-x:auto; }
 table{ width:100%; border-collapse:collapse; font-size:var(--font-size-body-sm); }
 caption{ text-align:left; padding:var(--space-4) var(--space-4); font-size:var(--font-size-caption); color:var(--text-muted); }
 th, td{ padding:var(--space-3) var(--space-4); border-bottom:1px solid var(--border-default); text-align:left; vertical-align:top; }
@@ -426,6 +426,13 @@ tr.fiche-row td{ padding:0 var(--space-4) var(--space-3); border-bottom:1px soli
   .toolbar{ grid-template-columns:1fr; }
   .app-header, nav.tabs, main, .sonar-card, .counts-wrap, .app-footer{ padding-left:var(--space-6); padding-right:var(--space-6); }
 }
+
+/* ============================================================================
+   Retour en haut
+   ============================================================================ */
+.back-to-top{ position:fixed; right:var(--space-8); bottom:var(--space-8); width:48px; height:48px; border-radius:50%; border:1px solid var(--border-strong); background:var(--surface-card); color:var(--text-body); display:flex; align-items:center; justify-content:center; cursor:pointer; box-shadow:0 4px 14px rgba(0,0,0,.28); z-index:15; }
+.back-to-top:hover{ border-color:var(--accent); color:var(--accent); }
+@media print{ .back-to-top{ display:none !important; } }
 
 /* ============================================================================
    Impression : la sélection de rapport, en clair

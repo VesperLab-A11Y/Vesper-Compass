@@ -592,6 +592,15 @@
     $all('input[name="theme"]').forEach(function (r) {
       r.addEventListener('change', function () { if (r.checked) applyTheme(r.value); });
     });
+
+    var backToTop = $('#backToTop');
+    window.addEventListener('scroll', function () {
+      backToTop.hidden = window.scrollY < 400;
+    }, { passive: true });
+    backToTop.addEventListener('click', function () {
+      var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
+    });
   }
 
   /* ---------- démarrage ---------- */

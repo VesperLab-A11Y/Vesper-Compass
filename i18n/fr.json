@@ -98,7 +98,8 @@
 
     "footerBuiltBy": "Vesper Compass, conçu par",
     "footerCriteria": "Critères basés sur",
-    "footerSource": "Code source sur GitHub"
+    "footerSource": "Code source sur GitHub",
+    "backToTopLabel": "Retour en haut de la page"
   },
 
   "principles": {
