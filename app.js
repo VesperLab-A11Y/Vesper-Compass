@@ -622,7 +622,11 @@
   loadReports();
   applyTheme(lsGet('theme') || 'dark');
   bind();
-  var wantLang = lsGet('lang') || ((navigator.language || '').toLowerCase().indexOf('en') === 0 ? 'en' : 'fr');
+  // ?lang=fr|en dans l'URL prime sur la préférence enregistrée : permet à un site tiers
+  // (le Toolkit, en anglais) de renvoyer directement vers la bonne langue sans surprise.
+  var urlLangMatch = /[?&]lang=(fr|en)\b/.exec(location.search);
+  var wantLang = (urlLangMatch && urlLangMatch[1]) || lsGet('lang') ||
+    ((navigator.language || '').toLowerCase().indexOf('en') === 0 ? 'en' : 'fr');
 
   setLang(wantLang)
     .catch(function () { return setLang('fr'); })
